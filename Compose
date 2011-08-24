@@ -1,0 +1,72 @@
+
+<Multi_key>	:	{
+	:	@Ligatures
+	:	@Extended_Latin
+
+#	Diacritic and common transform prefixes
+	<apostrophe>	:	@_acute
+	<acute>	:	@_acute
+	<asciicircum>	:	@_circumflex
+	<grave>	:	@_grave
+	<comma>	:	@_comma
+	<quotedbl>	:	@_diaeresis
+	<asciitilde>	:	@_tilde
+	<o>	:	@_ring
+	<slash>	:	@_slash
+	<minus>	:	@_bar
+	<KP_Divide>	:	@_slash
+	<macron>	:	@_macron
+	<underscore>	:	@_macron
+	<U>	:	@_breve
+	<b>	:	@_breve
+	<semicolon>	:	@_ogonek
+	<period>	:	@_dot
+	<c>	:	@_caron
+	<equal>	:	@_doubleAcute
+	<plus>	:	@_horn
+	<macron> <quotedbl>	:	@_diaeresis_macron
+	<underscore> <quotedbl>	:	@_diaeresis_macron
+	<acute> <quotedbl>	:	@_diaeresis_acute
+	<apostrophe> <quotedbl>	:	@_diaeresis_acute
+	<c> <quotedbl>	:	@_diaeresis_caron
+	<grave> <quotedbl>	:	@_diaeresis_grave
+	<macron> <period>	:	@_dot_macron
+	<underscore> <period>	:	@_dot_macron
+	<macron> <semicolon>	:	@_ogonek_macron
+	<underscore> <semicolon>	:	@_ogonek_macron
+	<acute> <o>	:	@_ring_acute
+	<apostrophe> <o>	:	@_ring_acute
+	<acute> <slash>	:	@_slash_acute
+	<apostrophe> <slash>	:	@_slash_acute
+	<acute> <KP_Divide>	:	@_slash_acute
+	<apostrophe> <KP_Divide>	:	@_slash_acute
+	<macron> <asciitilde>	:	@_tilde_macron
+	<underscore> <asciitilde>	:	@_tilde_macron
+	<asciicircum> <underscore>	:	@_super
+	<asciicircum> <underbar>	:	@_super
+	<asciicircum>	:	@_superShort
+
+}
+
+<dead_acute>	:	@_acute
+<dead_grave>	:	@_grave
+<dead_circumflex>	:	@_circumflex
+<dead_diaeresis>	:	@_diaeresis
+<dead_cedilla>	:	@_cedilla
+<dead_tilde>	:	@_tilde
+<dead_caron>	:	@_caron
+<dead_abovedot>	:	@_dot
+<dead_slash>	:	@_slash
+<dead_ogonek>	:	@_ogonek
+<dead_abovering>	:	@_ring
+<dead_doubleacute>	:	@_doubleAcute
+<dead_macron>	:	@_macron
+<dead_breve>	:	@_breve
+<dead_horn>	:	@_horn
+<dead_iota>	:	@_iota
+
+<U030F>	:	@_doubleGrave
+<U0311>	:	@_invertedBreve
+<U0326>	:	@_comma
+
+<dead_circumflex>	:	@_superShort

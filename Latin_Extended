@@ -1,0 +1,35 @@
+
+[Ligatures]	:	{
+	"AE"	:	"Æ"	AE
+	"ae"	:	"æ"	ae
+	"OE"	:	"Œ"	OE
+	"oe"	:	"œ"	oe
+	"ss"	:	"ß"	ssharp
+}
+
+[Ligatures_acute]	:	{
+	"AE"	:	@AE_acute
+	"ae"	:	@ae_acute
+}
+
+[Ligatures_macron]	:	{
+	"AE"	:	@AE_macron
+	"ae"	:	@ae_macron
+}
+
+[Extended_Latin]	:	{
+	"DH"	:	"Ð"	ETH
+	"dh"	:	"ð"	eth
+	"ee"	:	"ə"	schwa
+	"kk"	:	"ĸ"	kra
+	"NG"	:	"Ŋ"	ENG
+	"ng"	:	"ŋ"	eng
+	"TH"	:	"Þ"	THORN
+	"th"	:	"þ"	thorn
+}
+
+[Extended_Latin_caron]	:	{
+	"ZH"	:	@EZH_caron
+	"zh"	:	@ezh_caron
+}
+

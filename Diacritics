@@ -1,0 +1,447 @@
+
+[_acute]	:	{
+	<space>	:	"'"	apostrophe
+
+	<Multi_key>	:	@Ligatures_acute
+	<dead_diaeresis>	:	@_diaeresis_acute
+	<Multi_key>	<quotedbl>	:	@_diaeresis_acute
+	<dead_abovering>	:	@_ring_acute
+	<Multi_key> <o>	:	@_ring_acute
+	<dead_slash>	:	@_slash_acute
+	<Multi_key> <slash>	:	@_slash_acute
+	<Multi_key>	<KP_Divide>	:	@_slash_acute
+
+	<A>	:	"Á"	Aacute
+	<a>	:	"á"	aacute
+	<C>	:	"Ć"	Cacute
+	<c>	:	"ć"	cacute
+	<E>	:	"É"	Eacute
+	<e>	:	"é"	eacute
+	<G>	:	@G_acute
+	<g>	:	@g_acute
+	<I>	:	"Í"	Iacute
+	<i>	:	"í"	iacute
+	<L>	:	"Ĺ"	Lacute
+	<l>	:	"ĺ"	lacute
+	<N>	:	"Ń"	Nacute
+	<n>	:	"ń"	nacute
+	<O>	:	"Ó"	Oacute
+	<o>	:	"ó"	oacute
+	<R>	:	"Ŕ"	Racute
+	<r>	:	"ŕ"	racute
+	<S>	:	"Ś"	Sacute
+	<s>	:	"ś"	sacute
+	<U>	:	"Ú"	Uacute
+	<u>	:	"ú"	uacute
+	<Y>	:	"Ý"	Yacute
+	<y>	:	"ý"	yacute
+	<Z>	:	"Ź"	Zacute
+	<z>	:	"ź"	zacute
+	"Ü"	:	@U_diaeresis_acute
+	"ü"	:	@u_diaeresis_acute
+	"Å"	:	@A_ring_acute
+	"å"	:	@a_ring_acute
+	"Æ"	:	@AE_acute
+	"æ"	:	@ae_acute
+	"Ø"	:	@O_slash_acute
+	"ø"	:	@o_slash_acute
+}
+
+[_diaeresis_acute]	:	{
+	<U>	:	@U_diaeresis_acute
+	<u>	:	@u_diaeresis_acute
+}
+
+[_slash_acute]	:	{
+	<O>	:	@O_slash_acute
+	<o>	:	@o_slash_acute
+}
+
+[_ring_acute]	:	{
+	<A>	:	@A_ring_acute
+	<a>	:	@a_ring_acute
+}
+
+[_grave]	:	{
+	<space>	:	"`"	grave
+	<dead_diaeresis>	:	@_diaeresis_grave
+	<Multi_key>	<quotedbl>	:	@_diaeresis_grave
+	<A>	:	"À"	Agrave
+	<a>	:	"à"	agrave
+	<E>	:	"È"	Egrave
+	<e>	:	"è"	egrave
+	<I>	:	"Ì"	Igrave
+	<i>	:	"ì"	igrave
+	<N>	:	@N_grave
+	<n>	:	@n_grave
+	<O>	:	"Ò"	Ograve
+	<o>	:	"ò"	ograve
+	<U>	:	"Ù"	Ugrave
+	<u>	:	"ù"	ugrave
+	"Ü"	:	@U_diaeresis_grave
+	"ü"	:	@u_diaeresis_grave
+}
+
+[_diaeresis_grave]	:	{
+	<U>	:	@U_diaeresis_grave
+	<u>	:	@u_diaeresis_grave
+}
+
+[_circumflex]	:	{
+	<space>	:	"^"	asciicircum
+	<A>	:	"Â"	Acircumflex
+	<a>	:	"â"	acircumflex
+	<C>	:	"Ĉ"	Ccircumflex
+	<c>	:	"ĉ"	ccircumflex
+	<E>	:	"Ê"	Ecircumflex
+	<e>	:	"ê"	ecircumflex
+	<G>	:	"Ĝ"	Gcircumflex
+	<g>	:	"ĝ"	gcircumflex
+	<H>	:	"Ĥ"	Hcircumflex
+	<h>	:	"ĥ"	hcircumflex
+	<I>	:	"Î"	Icircumflex
+	<i>	:	"î"	icircumflex
+	<J>	:	"Ĵ"	Jcircumflex
+	<j>	:	"ĵ"	jcircumflex
+	<O>	:	"Ô"	Ocircumflex
+	<o>	:	"ô"	ocircumflex
+	<S>	:	"Ŝ"	Scircumflex
+	<s>	:	"ŝ"	scircumflex
+	<U>	:	"Û"	Ucircumflex
+	<u>	:	"û"	ucircumflex
+	<W>	:	"Ŵ"	Wcircumflex
+	<w>	:	"ŵ"	wcircumflex
+	<Y>	:	"Ŷ"	Ycircumflex
+	<y>	:	"ŷ"	ycircumflex
+}
+
+[_diaeresis]	:	{
+	<space>	:	"\""	quotedbl
+	<A>	:	"Ä"	Adiaeresis
+	<a>	:	"ä"	adiaeresis
+	<E>	:	"Ë"	Ediaeresis
+	<e>	:	"ë"	ediaeresis
+	<I>	:	"Ï"	Idiaeresis
+	<i>	:	"ï"	idiaeresis
+	<O>	:	"Ö"	Odiaeresis
+	<o>	:	"ö"	odiaeresis
+	<U>	:	"Ü"	Udiaeresis
+	<u>	:	"ü"	udiaeresis
+	<Y>	:	"Ÿ"	Ydiaeresis
+	<y>	:	"ÿ"	ydiaeresis
+}
+
+[_cedilla]	:	{
+	<space>	:	"¸"	cedilla
+	:	@_cedillaXorComma
+	<S>	:	"Ş"	Scedilla
+	<s>	:	"ş"	scedilla
+	<T>	:	"Ţ"	Tcedilla
+	<t>	:	"ţ"	tcedilla
+}
+
+[_comma]	:	{
+	:	@_cedillaXorComma
+	<S>	:	@S_comma
+	<s>	:	@s_comma
+	<T>	:	@T_comma
+	<t>	:	@t_comma
+}
+
+[_cedillaXorComma]	:	{
+	<C>	:	"Ç"	Ccedilla
+	<c>	:	"ç"	ccedilla
+	<E>	:	@E_cedilla
+	<e>	:	@e_cedilla
+	<G>	:	"Ģ"	Gcedilla
+	<g>	:	"ģ"	gcedilla
+	<K>	:	"Ķ"	Kcedilla
+	<k>	:	"ķ"	kcedilla
+	<L>	:	"Ļ"	Lcedilla
+	<l>	:	"ļ"	lcedilla
+	<N>	:	"Ņ"	Ncedilla
+	<n>	:	"ņ"	ncedilla
+	<R>	:	"Ŗ"	Rcedilla
+	<r>	:	"ŗ"	rcedilla
+}
+
+[_tilde]	:	{
+	<space>	:	"~"	asciitilde
+	<A>	:	"Ã"	Atilde
+	<a>	:	"ã"	atilde
+	<I>	:	"Ĩ"	Itilde
+	<i>	:	"ĩ"	itilde
+	<N>	:	"Ñ"	Ntilde
+	<n>	:	"ñ"	ntilde
+	<O>	:	"Õ"	Otilde
+	<o>	:	"õ"	otilde
+	<U>	:	"Ũ"	Utilde
+	<u>	:	"ũ"	utilde
+}
+
+[_caron]	:	{
+	<space>	:	"ˇ"	caron
+
+	<Multi_key>	:	@Extended_Latin_caron
+	<dead_diaeresis>	:	@_diaeresis_caron
+	<Multi_key> <quotedbl>	:	@_diaeresis_caron
+
+	<A>	:	@A_caron
+	<a>	:	@a_caron
+	<C>	:	"Č"	Ccaron
+	<c>	:	"č"	ccaron
+	<D>	:	"Ď"	Dcaron
+	<d>	:	"ď"	dcaron
+	<E>	:	"Ě"	Ecaron
+	<e>	:	"ě"	ecaron
+	<G>	:	"Ǧ"	Gcaron
+	<g>	:	"ǧ"	gcaron
+	<H>	:	@H_caron
+	<h>	:	@h_caron
+	<I>	:	@I_caron
+	<i>	:	@i_caron
+	<j>	:	@j_caron
+	<K>	:	@K_caron
+	<k>	:	@k_caron
+	<L>	:	"Ľ"	Lcaron
+	<l>	:	"ľ"	lcaron
+	<N>	:	"Ň"	Ncaron
+	<n>	:	"ň"	ncaron
+	<O>	:	"Ǒ"	Ocaron
+	<o>	:	"ǒ"	ocaron
+	<R>	:	"Ř"	Rcaron
+	<r>	:	"ř"	rcaron
+	<S>	:	"Š"	Scaron
+	<s>	:	"š"	scaron
+	<T>	:	"Ť"	Tcaron
+	<t>	:	"ť"	tcaron
+	<U>	:	@U_caron
+	<u>	:	@u_caron
+	<Z>	:	"Ž"	Zcaron
+	<z>	:	"ž"	zcaron
+	"Ü"	:	@U_diaeresis_caron
+	"ü"	:	@u_diaeresis_caron
+	"Ʒ"	:	@EZH_caron
+	"ʒ"	:	@ezh_caron
+}
+
+[_diaeresis_caron]	:	{
+	<U>	:	@U_diaeresis_caron
+	<u>	:	@u_diaeresis_caron
+}
+
+[_dot]	:	{
+	<space>	:	"˙"	abovedot
+	<A>	:	@A_dot
+	<a>	:	@a_dot
+	<C>	:	"Ċ"	Cabovedot
+	<c>	:	"ċ"	cabovedot
+	<E>	:	"Ė"	Eabovedot
+	<e>	:	"ė"	eabovedot
+	<G>	:	"Ġ"	Gabovedot
+	<g>	:	"ġ"	gabovedot
+	<I>	:	"İ"	Iabovedot
+	<i>	:	"ı"	idotless
+	<O>	:	@O_dot
+	<o>	:	@o_dot
+	<Z>	:	"Ż"	Zabovedot
+	<z>	:	"ż"	zabovedot
+}
+
+[_stroke]	:	{
+	<b>	:	@b_stroke
+	<D>	:	"Đ"	Dstroke
+	<d>	:	"đ"	dstroke
+	<G>	:	@G_stroke
+	<g>	:	@g_stroke
+	<H>	:	"Ħ"	Hstroke
+	<h>	:	"ħ"	hstroke
+	<I>	:	@I_stroke
+	<L>	:	"Ł"	Lstroke
+	<l>	:	"ł"	lstroke
+	<T>	:	"Ŧ"	Tslash
+	<t>	:	"ŧ"	tslash
+	<Z>	:	"Ƶ"	Zstroke
+	<z>	:	"ƶ"	zstroke
+}
+
+[_slash]	:	{
+	:	@_stroke
+	<O>	:	"Ø"	Ooblique
+	<o>	:	"ø"	ooblique
+}
+
+[_bar]	:	{
+	:	@_stroke
+}
+
+[_ogonek]	:	{
+	<space>	:	"˛"	ogonek
+	<A>	:	"Ą"	Aogonek
+	<a>	:	"ą"	aogonek
+	<E>	:	"Ę"	Eogonek
+	<e>	:	"ę"	eogonek
+	<I>	:	"Į"	Iogonek
+	<i>	:	"į"	iogonek
+	<O>	:	@O_ogonek
+	<o>	:	@o_ogonek
+	<U>	:	"Ų"	Uogonek
+	<u>	:	"ų"	uogonek
+}
+
+[_ring]	:	{
+	<space>	:	"°"	degree
+	<A>	:	"Å"	Aring
+	<a>	:	"å"	aring
+	<U>	:	"Ů"	Uring
+	<u>	:	"ů"	uring
+}
+
+[_doubleAcute]	:	{
+	<space>	:	"˝"	doubleacute
+	<O>	:	"Ő"	Odoubleacute
+	<o>	:	"ő"	odoubleacute
+	<U>	:	"Ű"	Udoubleacute
+	<u>	:	"ű"	udoubleacute
+}
+
+[_macron]	:	{
+	<space>	:	"¯"	macron
+
+	<dead_diaeresis>	:	@_diaeresis_macron
+	<dead_tilde>	:	@_tilde_macron
+	<dead_abovedot>	:	@_dot_macron
+	<dead_ogonek>	:	@_ogonek_macron
+	<Multi_key>	:	{
+		:	@Ligatures_macron
+		<quotedbl>	:	@_diaeresis_macron
+		<asciitilde>	:	@_tilde_macron
+		<semicolon>	:	@_ogonek_macron
+		<period>	:	@_dot_macron
+	}
+
+	<A>	:	"Ā"	Amacron
+	<a>	:	"ā"	amacron
+	<E>	:	"Ē"	Emacron
+	<e>	:	"ē"	emacron
+	<I>	:	"Ī"	Imacron
+	<i>	:	"ī"	imacron
+	<O>	:	"Ō"	Omacron
+	<o>	:	"ō"	omacron
+	<U>	:	"Ū"	Umacron
+	<u>	:	"ū"	umacron
+	<Y>	:	@Y_macron
+	<y>	:	@y_macron
+	"Ä"	:	@A_diaeresis_macron
+	"ä"	:	@a_diaeresis_macron
+	"Ö"	:	@O_diaeresis_macron
+	"ö"	:	@o_diaeresis_macron
+	"Ü"	:	@U_diaeresis_macron
+	"ü"	:	@u_diaeresis_macron
+	"Ȧ"	:	@A_dot_macron
+	"ȧ"	:	@a_dot_macron
+	"Ȯ"	:	@O_dot_macron
+	"ȯ"	:	@o_dot_macron
+	"Æ"	:	@AE_macron
+	"æ"	:	@ae_macron
+	"Õ"	:	@O_tilde_macron
+	"õ"	:	@o_tilde_macron
+	"Ǫ"	:	@O_ogonek_macron
+	"ǫ"	:	@o_ogonek_macron
+}
+
+[_diaeresis_macron]	:	{
+	<A>	:	@A_diaeresis_macron
+	<a>	:	@a_diaeresis_macron
+	<O>	:	@O_diaeresis_macron
+	<o>	:	@o_diaeresis_macron
+	<U>	:	@U_diaeresis_macron
+	<u>	:	@u_diaeresis_macron
+}
+
+[_tilde_macron]	:	{
+	<O>	:	@O_tilde_macron
+	<o>	:	@o_tilde_macron
+}
+
+[_ogonek_macron]	:	{
+	<O>	:	@O_ogonek_macron
+	<o>	:	@o_ogonek_macron
+}
+
+[_dot_macron]	:	{
+	<A>	:	@A_dot_macron
+	<a>	:	@a_dot_macron
+	<O>	:	@O_dot_macron
+	<o>	:	@o_dot_macron
+}
+
+[_breve]	:	{
+	<space>	:	"˘"	breve
+	<A>	:	"Ă"	Abreve
+	<a>	:	"ă"	abreve
+	<E>	:	@E_breve
+	<e>	:	@e_breve
+	<G>	:	"Ğ"	Gbreve
+	<g>	:	"ğ"	gbreve
+	<I>	:	"Ĭ"	Ibreve
+	<i>	:	"ĭ"	ibreve
+	<O>	:	@O_breve
+	<o>	:	@o_breve
+	<U>	:	"Ŭ"	Ubreve
+	<u>	:	"ŭ"	ubreve
+}
+
+[_horn]	:	{
+	<O>	:	"Ơ"	Ohorn
+	<o>	:	"ơ"	ohorn
+	<U>	:	"Ư"	Uhorn
+	<u>	:	"ư"	uhorn
+}
+
+[_iota]	:	{
+	<space>	:	@hypogegrammeni
+}
+
+[_doubleGrave]	:	{
+	<A>	:	@A_doubleGrave
+	<a>	:	@a_doubleGrave
+	<E>	:	@E_doubleGrave
+	<e>	:	@e_doubleGrave
+	<I>	:	@I_doubleGrave
+	<i>	:	@i_doubleGrave
+	<O>	:	@O_doubleGrave
+	<o>	:	@o_doubleGrave
+	<R>	:	@R_doubleGrave
+	<r>	:	@r_doubleGrave
+	<U>	:	@U_doubleGrave
+	<u>	:	@u_doubleGrave
+}
+
+[_invertedBreve]	:	{
+	<A>	:	@A_invertedBreve
+	<a>	:	@a_invertedBreve
+	<E>	:	@E_invertedBreve
+	<e>	:	@e_invertedBreve
+	<I>	:	@I_invertedBreve
+	<i>	:	@i_invertedBreve
+	<O>	:	@O_invertedBreve
+	<o>	:	@O_invertedBreve
+	<R>	:	@R_invertedBreve
+	<r>	:	@r_invertedBreve
+	<U>	:	@U_invertedBreve
+	<u>	:	@u_invertedBreve
+}
+
+[_super]	:	{
+	:	@_superShort
+}
+
+[_superShort]	:	{
+	<1>	:	"¹"	onesuperior
+	<KP_1>	:	"¹"	onesuperior
+	<2>	:	"²"	twosuperior
+	<KP_2>	:	"²" twosuperior
+	<3>	:	"³"	threesuperior
+	<KP_3>	:	"³" threesuperior
+}
