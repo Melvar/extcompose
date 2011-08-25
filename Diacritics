@@ -257,12 +257,14 @@
 	<H>	:	"Ħ"	Hstroke
 	<h>	:	"ħ"	hstroke
 	<I>	:	@I_stroke
+	<i>	:	@i_stroke
 	<L>	:	"Ł"	Lstroke
 	<l>	:	"ł"	lstroke
 	<T>	:	"Ŧ"	Tslash
 	<t>	:	"ŧ"	tslash
 	<Z>	:	"Ƶ"	Zstroke
 	<z>	:	"ƶ"	zstroke
+	"ʔ"	:	@Glottalstop_stroke
 }
 
 [_slash]	:	{
@@ -434,10 +436,28 @@
 }
 
 [_super]	:	{
-	:	@_superShort
+	<h>	:	@h_modifier
+	<j>	:	@j_modifier
+	<l>	:	@l_modifier
+	<r>	:	@r_modifier
+	<s>	:	@s_modifier
+	<w>	:	@w_modifier
+	<x>	:	@x_modifier
+	<y>	:	@y_modifier
+	"ɦ"	:	@h_hook_modifier
+	"ɣ"	:	@gamma_modifier
+	"ɹ"	:	@r_turn_modifier
+	"ɻ"	:	@r_turn_retroflex_modifier
+	"ʁ"	:	@R_smallcap_inverted_modifier
+	"ʕ"	:	@Glottalstop_reversed_modifier
 }
 
 [_superShort]	:	{
+	<Multi_key>	:	{
+		<underscore>	:	@_super
+		<underbar>	:	@_super
+	}
+
 	<1>	:	"¹"	onesuperior
 	<KP_1>	:	"¹"	onesuperior
 	<2>	:	"²"	twosuperior

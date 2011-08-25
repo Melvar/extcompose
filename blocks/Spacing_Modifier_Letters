@@ -1,0 +1,16 @@
+[h_modifier]	:	"ʰ"	U02B0
+[h_hook_modifier]	:	"ʱ"	U02B1
+[j_modifier]	:	"ʲ"	U02B2
+[r_modifier]	:	"ʳ"	U02B3
+[r_turn_modifier]	:	"ʴ"	U02B4
+[r_turn_retroflex_modifier]	:	"ʵ"	U02B5
+[R_smallcap_inverted_modifier]	:	"ʶ"	U02B6
+[w_modifier]	:	"ʷ"	U02B7
+[y_modifier]	:	"ʸ"	U02B8
+
+[gamma_modifier]	:	"ˠ"	U02E0
+[l_modifier]	:	"ˡ"	U02E1
+[s_modifier]	:	"ˢ"	U02E2
+[x_modifier]	:	"ˣ"	U02E3
+[Glottalstop_reversed_modifier]	:	"ˤ"
+
