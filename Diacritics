@@ -4,12 +4,21 @@
 
 	<Multi_key>	:	@Ligatures_acute
 	<dead_diaeresis>	:	@_diaeresis_acute
-	<Multi_key>	<quotedbl>	:	@_diaeresis_acute
+	<dead_cedilla>	:	@_cedilla_acute
+	<dead_tilde>	:	@_tilde_acute
 	<dead_abovering>	:	@_ring_acute
-	<Multi_key> <o>	:	@_ring_acute
+	<dead_macron>	:	@_macron_acute
 	<dead_slash>	:	@_slash_acute
-	<Multi_key> <slash>	:	@_slash_acute
-	<Multi_key>	<KP_Divide>	:	@_slash_acute
+	<Multi_key>	:	{
+		<quotedbl>	:	@_diaeresis_acute
+		<comma>	:	@_cedilla_acute
+		<asciitilde>	:	@_tilde_acute
+		<o>	:	@_ring_acute
+		<macron>	:	@_macron_acute
+		<underscore>	:	@_macron_acute
+		<slash>	:	@_slash_acute
+		<KP_Divide>	:	@_slash_acute
+	}
 
 	<A>	:	"Á"	Aacute
 	<a>	:	"á"	aacute
@@ -21,35 +30,69 @@
 	<g>	:	@g_acute
 	<I>	:	"Í"	Iacute
 	<i>	:	"í"	iacute
+	<K>	:	@K_acute
+	<k>	:	@k_acute
 	<L>	:	"Ĺ"	Lacute
 	<l>	:	"ĺ"	lacute
+	<M>	:	@M_acute
+	<m>	:	@m_acute
 	<N>	:	"Ń"	Nacute
 	<n>	:	"ń"	nacute
 	<O>	:	"Ó"	Oacute
 	<o>	:	"ó"	oacute
+	<P>	:	@P_acute
+	<p>	:	@p_acute
 	<R>	:	"Ŕ"	Racute
 	<r>	:	"ŕ"	racute
 	<S>	:	"Ś"	Sacute
 	<s>	:	"ś"	sacute
 	<U>	:	"Ú"	Uacute
 	<u>	:	"ú"	uacute
+	<W>	:	"Ẃ"	Wacute
+	<w>	:	"ẃ"	wacute
 	<Y>	:	"Ý"	Yacute
 	<y>	:	"ý"	yacute
 	<Z>	:	"Ź"	Zacute
 	<z>	:	"ź"	zacute
-	"Ü"	:	@U_diaeresis_acute
-	"ü"	:	@u_diaeresis_acute
 	"Å"	:	@A_ring_acute
 	"å"	:	@a_ring_acute
 	"Æ"	:	@AE_acute
 	"æ"	:	@ae_acute
+	"Ç"	:	@C_cedilla_acute
+	"ç"	:	@c_cedilla_acute
+	"Ē"	:	@E_macron_acute
+	"ē"	:	@e_macron_acute
+	"Ï"	:	@I_diaeresis_acute
+	"ï"	:	@i_diaeresis_acute
 	"Ø"	:	@O_slash_acute
 	"ø"	:	@o_slash_acute
+	"Õ"	:	@O_tilde_acute
+	"õ"	:	@o_tilde_acute
+	"Ō"	:	@O_macron_acute
+	"Ō"	:	@o_macron_acute
+	"Ü"	:	@U_diaeresis_acute
+	"ü"	:	@u_diaeresis_acute
+	"Ũ"	:	@U_tilde_acute
+	"ũ"	:	@u_tilde_acute
 }
 
 [_diaeresis_acute]	:	{
+	<I>	:	@I_diaeresis_acute
+	<i>	:	@i_diaeresis_acute
 	<U>	:	@U_diaeresis_acute
 	<u>	:	@u_diaeresis_acute
+}
+
+[_cedilla_acute]	:	{
+	<C>	:	@C_cedilla_acute
+	<c>	:	@c_cedilla_acute
+}
+
+[_tilde_acute]	:	{
+	<O>	:	@O_tilde_acute
+	<o>	:	@o_tilde_acute
+	<U>	:	@U_tilde_acute
+	<u>	:	@u_tilde_acute
 }
 
 [_slash_acute]	:	{
@@ -62,10 +105,24 @@
 	<a>	:	@a_ring_acute
 }
 
+[_macron_acute]	:	{
+	<E>	:	@E_macron_acute
+	<e>	:	@e_macron_acute
+	<O>	:	@O_macron_acute
+	<o>	:	@o_macron_acute
+}
+
 [_grave]	:	{
 	<space>	:	"`"	grave
+
 	<dead_diaeresis>	:	@_diaeresis_grave
-	<Multi_key>	<quotedbl>	:	@_diaeresis_grave
+	<dead_macron>	:	@_macron_grave
+	<Multi_key>	:	{
+		<quotedbl>	:	@_diaeresis_grave
+		<macron>	:	@_macron_grave
+		<underscore>	:	@_macron_grave
+	}
+
 	<A>	:	"À"	Agrave
 	<a>	:	"à"	agrave
 	<E>	:	"È"	Egrave
@@ -78,6 +135,12 @@
 	<o>	:	"ò"	ograve
 	<U>	:	"Ù"	Ugrave
 	<u>	:	"ù"	ugrave
+	<W>	:	"Ẁ"	Wgrave
+	<w>	:	"ẁ"	wgrave
+	"Ē"	:	@E_macron_grave
+	"ē"	:	@e_macron_grave
+	"Ō"	:	@O_macron_grave
+	"ō"	:	@o_macron_grave
 	"Ü"	:	@U_diaeresis_grave
 	"ü"	:	@u_diaeresis_grave
 }
@@ -85,6 +148,13 @@
 [_diaeresis_grave]	:	{
 	<U>	:	@U_diaeresis_grave
 	<u>	:	@u_diaeresis_grave
+}
+
+[_macron_grave]	:	{
+	<E>	:	@E_macron_grave
+	<e>	:	@e_macron_grave
+	<O>	:	@O_macron_grave
+	<o>	:	@o_macron_grave
 }
 
 [_circumflex]	:	{
@@ -113,22 +183,54 @@
 	<w>	:	"ŵ"	wcircumflex
 	<Y>	:	"Ŷ"	Ycircumflex
 	<y>	:	"ŷ"	ycircumflex
+	<Z>	:	@Z_circumflex
+	<z>	:	@z_circumflex
 }
 
 [_diaeresis]	:	{
 	<space>	:	"\""	quotedbl
+
+	<dead_tilde>	:	@_tilde_diaeresis
+	<dead_macron>	:	@_macron_diaeresis
+	<Multi_key>	:	{
+		<asciitilde>	:	@_tilde_diaeresis
+		<macron>	:	@_macron_diaeresis
+		<underscore>	:	@_macron_diaeresis
+	}
+
 	<A>	:	"Ä"	Adiaeresis
 	<a>	:	"ä"	adiaeresis
 	<E>	:	"Ë"	Ediaeresis
 	<e>	:	"ë"	ediaeresis
+	<H>	:	@H_diaeresis
+	<h>	:	@h_diaeresis
 	<I>	:	"Ï"	Idiaeresis
 	<i>	:	"ï"	idiaeresis
 	<O>	:	"Ö"	Odiaeresis
 	<o>	:	"ö"	odiaeresis
+	<t>	:	@t_diaeresis
 	<U>	:	"Ü"	Udiaeresis
 	<u>	:	"ü"	udiaeresis
+	<W>	:	"Ẅ"	Wdiaeresis
+	<w>	:	"ẅ"	wdiaeresis
+	<X>	:	@X_diaeresis
+	<x>	:	@x_diaeresis
 	<Y>	:	"Ÿ"	Ydiaeresis
 	<y>	:	"ÿ"	ydiaeresis
+	"Õ"	:	@O_tilde_diaeresis
+	"õ"	:	@o_tilde_diaeresis
+	"Ū"	:	@U_macron_diaeresis
+	"ū"	:	@u_macron_diaeresis
+}
+
+[_tilde_diaeresis]	:	{
+	<O>	:	@O_tilde_diaeresis
+	<o>	:	@o_tilde_diaeresis
+}
+
+[_macron_diaeresis]	:	{
+	<U>	:	@U_macron_diaeresis
+	<u>	:	@u_macron_diaeresis
 }
 
 [_cedilla]	:	{
@@ -151,10 +253,14 @@
 [_cedillaXorComma]	:	{
 	<C>	:	"Ç"	Ccedilla
 	<c>	:	"ç"	ccedilla
+	<D>	:	@D_cedilla
+	<d>	:	@d_cedilla
 	<E>	:	@E_cedilla
 	<e>	:	@e_cedilla
 	<G>	:	"Ģ"	Gcedilla
 	<g>	:	"ģ"	gcedilla
+	<H>	:	@H_cedilla
+	<h>	:	@h_cedilla
 	<K>	:	"Ķ"	Kcedilla
 	<k>	:	"ķ"	kcedilla
 	<L>	:	"Ļ"	Lcedilla
@@ -177,6 +283,8 @@
 	<o>	:	"õ"	otilde
 	<U>	:	"Ũ"	Utilde
 	<u>	:	"ũ"	utilde
+	<V>	:	@V_tilde
+	<v>	:	@v_tilde
 }
 
 [_caron]	:	{
@@ -232,20 +340,108 @@
 
 [_dot]	:	{
 	<space>	:	"˙"	abovedot
+
+	<dead_acute>	:	@_acute_dot
+	<dead_caron>	:	@_caron_dot
+	<dead_belowdot>	:	@_belowDot_dot
+	<Multi_key>	:	{
+		<acute>	:	@_acute_dot
+		<apostrophe>	:	@_acute_dot
+		<c>	:	@_caron_dot
+		<exclam>	:	@_belowDot_dot
+	}
+
 	<A>	:	@A_dot
 	<a>	:	@a_dot
+	<B>	:	"Ḃ"	Babovedot
+	<b>	:	"ḃ"	babovedot
 	<C>	:	"Ċ"	Cabovedot
 	<c>	:	"ċ"	cabovedot
+	<D>	:	"Ḋ"	Dabovedot
+	<d>	:	"ḋ"	dabovedot
 	<E>	:	"Ė"	Eabovedot
 	<e>	:	"ė"	eabovedot
+	<F>	:	"Ḟ"	Fabovedot
+	<f>	:	"ḟ"	fabovedot
 	<G>	:	"Ġ"	Gabovedot
 	<g>	:	"ġ"	gabovedot
+	<H>	:	@H_dot
+	<h>	:	@h_dot
 	<I>	:	"İ"	Iabovedot
 	<i>	:	"ı"	idotless
+	<M>	:	"Ṁ"	Mabovedot
+	<m>	:	"ṁ"	mabovedot
+	<N>	:	@N_dot
+	<n>	:	@n_dot
 	<O>	:	@O_dot
 	<o>	:	@o_dot
+	<P>	:	"Ṗ"	Pabovedot
+	<p>	:	"ṗ"	pabovedot
+	<R>	:	@R_dot
+	<r>	:	@r_dot
+	<S>	:	"Ṡ"	Sabovedot
+	<s>	:	"ṡ"	sabovedot
+	<T>	:	"Ṫ"	Tabovedot
+	<t>	:	"ṫ"	tabovedot
+	<W>	:	@W_dot
+	<w>	:	@w_dot
+	<X>	:	"Ẋ"	Xabovedot
+	<x>	:	"ẋ"	xabovedot
+	<Y>	:	@Y_dot
+	<y>	:	@y_dot
 	<Z>	:	"Ż"	Zabovedot
 	<z>	:	"ż"	zabovedot
+	"Ś"	:	@S_acute_dot
+	"ś"	:	@s_acute_dot
+	"Š"	:	@S_caron_dot
+	"š"	:	@s_caron_dot
+	"Ṣ"	:	@S_belowDot_dot
+	"ṣ"	:	@s_belowDot_dot
+	"ſ"	:	@longs_dot
+}
+
+[_acute_dot]	:	{
+	<S>	:	@S_acute_dot
+	<s>	:	@s_acute_dot
+}
+
+[_caron_dot]	:	{
+	<S>	:	@S_caron_dot
+	<s>	:	@s_caron_dot
+}
+
+[_belowDot_dot]	:	{
+	<S>	:	@S_belowDot_dot
+	<s>	:	@s_belowDot_dot
+}
+
+[_belowDot]	:	{
+	<B>	:	@B_belowDot
+	<b>	:	@b_belowDot
+	<D>	:	@D_belowDot
+	<d>	:	@d_belowDot
+	<H>	:	@H_belowDot
+	<h>	:	@h_belowDot
+	<K>	:	@K_belowDot
+	<k>	:	@k_belowDot
+	<L>	:	"Ḷ"	Lbelowdot
+	<l>	:	"ḷ"	lbelowdot
+	<M>	:	@M_belowDot
+	<m>	:	@m_belowDot
+	<N>	:	@N_belowDot
+	<n>	:	@n_belowDot
+	<R>	:	@R_belowDot
+	<r>	:	@r_belowDot
+	<S>	:	@S_belowDot
+	<s>	:	@s_belowDot
+	<T>	:	@T_belowDot
+	<t>	:	@t_belowDot
+	<V>	:	@V_belowDot
+	<v>	:	@v_belowDot
+	<W>	:	@W_belowDot
+	<w>	:	@w_belowDot
+	<Z>	:	@Z_belowDot
+	<z>	:	@z_belowDot
 }
 
 [_stroke]	:	{
@@ -297,6 +493,8 @@
 	<a>	:	"å"	aring
 	<U>	:	"Ů"	Uring
 	<u>	:	"ů"	uring
+	<w>	:	@w_ring
+	<y>	:	@y_ring
 }
 
 [_doubleAcute]	:	{
@@ -313,6 +511,7 @@
 	<dead_diaeresis>	:	@_diaeresis_macron
 	<dead_tilde>	:	@_tilde_macron
 	<dead_abovedot>	:	@_dot_macron
+	<dead_belowdot>	:	@_belowDot_macron
 	<dead_ogonek>	:	@_ogonek_macron
 	<Multi_key>	:	{
 		:	@Ligatures_macron
@@ -320,12 +519,15 @@
 		<asciitilde>	:	@_tilde_macron
 		<semicolon>	:	@_ogonek_macron
 		<period>	:	@_dot_macron
+		<exclam>	:	@_belowDot_macron
 	}
 
 	<A>	:	"Ā"	Amacron
 	<a>	:	"ā"	amacron
 	<E>	:	"Ē"	Emacron
 	<e>	:	"ē"	emacron
+	<G>	:	@G_macron
+	<g>	:	@g_macron
 	<I>	:	"Ī"	Imacron
 	<i>	:	"ī"	imacron
 	<O>	:	"Ō"	Omacron
@@ -336,20 +538,24 @@
 	<y>	:	@y_macron
 	"Ä"	:	@A_diaeresis_macron
 	"ä"	:	@a_diaeresis_macron
-	"Ö"	:	@O_diaeresis_macron
-	"ö"	:	@o_diaeresis_macron
-	"Ü"	:	@U_diaeresis_macron
-	"ü"	:	@u_diaeresis_macron
 	"Ȧ"	:	@A_dot_macron
 	"ȧ"	:	@a_dot_macron
-	"Ȯ"	:	@O_dot_macron
-	"ȯ"	:	@o_dot_macron
 	"Æ"	:	@AE_macron
 	"æ"	:	@ae_macron
+	"Ḷ"	:	@L_belowDot_macron
+	"ḷ"	:	@l_belowDot_macron
+	"Ö"	:	@O_diaeresis_macron
+	"ö"	:	@o_diaeresis_macron
+	"Ȯ"	:	@O_dot_macron
+	"ȯ"	:	@o_dot_macron
 	"Õ"	:	@O_tilde_macron
 	"õ"	:	@o_tilde_macron
 	"Ǫ"	:	@O_ogonek_macron
 	"ǫ"	:	@o_ogonek_macron
+	"Ṛ"	:	@R_belowDot_macron
+	"ṛ"	:	@r_belowDot_macron
+	"Ü"	:	@U_diaeresis_macron
+	"ü"	:	@u_diaeresis_macron
 }
 
 [_diaeresis_macron]	:	{
@@ -378,8 +584,19 @@
 	<o>	:	@o_dot_macron
 }
 
+[_belowDot_macron]	:	{
+	<L>	:	@L_belowDot_macron
+	<l>	:	@l_belowDot_macron
+	<R>	:	@R_belowDot_macron
+	<r>	:	@r_belowDot_macron
+}
+
 [_breve]	:	{
 	<space>	:	"˘"	breve
+
+	<dead_cedilla>	:	@_cedilla_breve
+	<Multi_key> <comma>	:	@_cedilla_breve
+
 	<A>	:	"Ă"	Abreve
 	<a>	:	"ă"	abreve
 	<E>	:	@E_breve
@@ -392,6 +609,13 @@
 	<o>	:	@o_breve
 	<U>	:	"Ŭ"	Ubreve
 	<u>	:	"ŭ"	ubreve
+	"Ȩ"	:	@E_cedilla_breve
+	"ȩ"	:	@e_cedilla_breve
+}
+
+[_cedilla_breve]	:	{
+	<E>	:	@E_cedilla_breve
+	<e>	:	@e_cedilla_breve
 }
 
 [_horn]	:	{
@@ -433,6 +657,65 @@
 	<r>	:	@r_invertedBreve
 	<U>	:	@U_invertedBreve
 	<u>	:	@u_invertedBreve
+}
+
+[_belowRing]	:	{
+	<A>	:	@A_belowRing
+	<a>	:	@a_belowRing
+}
+
+[_belowLine]	:	{
+	<B>	:	@B_belowLine
+	<b>	:	@b_belowLine
+	<D>	:	@D_belowLine
+	<d>	:	@d_belowLine
+	<h>	:	@h_belowLine
+	<K>	:	@K_belowLine
+	<k>	:	@k_belowLine
+	<L>	:	@L_belowLine
+	<l>	:	@l_belowLine
+	<N>	:	@N_belowLine
+	<n>	:	@n_belowLine
+	<R>	:	@R_belowLine
+	<r>	:	@r_belowLine
+	<T>	:	@T_belowLine
+	<t>	:	@t_belowLine
+	<Z>	:	@Z_belowLine
+	<z>	:	@z_belowLine
+}
+
+[_belowCircumflex]	:	{
+	<D>	:	@D_belowCircumflex
+	<d>	:	@d_belowCircumflex
+	<E>	:	@E_belowCircumflex
+	<e>	:	@e_belowcircumflex
+	<L>	:	@L_belowCircumflex
+	<l>	:	@l_belowCircumflex
+	<N>	:	@N_belowCircumflex
+	<n>	:	@n_belowCircumflex
+	<T>	:	@T_belowCircumflex
+	<t>	:	@t_belowCircumflex
+	<U>	:	@U_belowCircumflex
+	<u>	:	@u_belowCircumflex
+}
+
+[_belowTilde]	:	{
+	<E>	:	@E_belowTilde
+	<e>	:	@e_belowTilde
+	<I>	:	@I_belowTilde
+	<i>	:	@i_belowTilde
+	<U>	:	@U_belowTilde
+	<u>	:	@u_belowTilde
+}
+
+[_belowDiaeresis]	:	{
+	<U>	:	@U_belowDiaeresis
+	<u>	:	@u_belowDiaeresis
+}
+
+[_belowBreve]	:	{
+	<H>	:	@H_belowBreve
+	<h>	:	@h_belowBreve
 }
 
 [_super]	:	{

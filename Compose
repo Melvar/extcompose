@@ -21,6 +21,7 @@
 	<b>	:	@_breve
 	<semicolon>	:	@_ogonek
 	<period>	:	@_dot
+	<exclam>	:	@_belowDot
 	<c>	:	@_caron
 	<equal>	:	@_doubleAcute
 	<plus>	:	@_horn
@@ -42,10 +43,30 @@
 	<apostrophe> <KP_Divide>	:	@_slash_acute
 	<macron> <asciitilde>	:	@_tilde_macron
 	<underscore> <asciitilde>	:	@_tilde_macron
+	<acute> <comma>	:	@_cedilla_acute
+	<apostrophe> <comma>	:	@_cedilla_acute
+	<grave> <macron>	:	@_macron_grave
+	<grave> <underscore>	:	@_macron_grave
+	<acute> <macron>	:	@_macron_acute
+	<acute> <underscore>	:	@_macron_acute
+	<apostrophe> <macron>	:	@_macron_acute
+	<apostrophe> <underscore>	:	@_macron_acute
+	<U> <comma>	:	@_cedilla_breve
+	<b>	<comma>	:	@_cedilla_breve
+	<macron> <exclam>	:	@_belowDot_macron
+	<underscore> <exclam>	:	@_belowDot_macron
+	<acute> <asciitilde>	:	@_tilde_acute
+	<apostrophe> <asciitilde>	:	@_tilde_acute
+	<quotedbl> <asciitilde>	:	@_tilde_diaeresis
+	<period> <acute>	:	@_acute_dot
+	<period> <apostrophe>	:	@_acute_dot
+	<period> <c>	:	@_caron_dot
+	<period> <exclam>	:	@_belowDot_dot
+	<quotedbl> <macron>	:	@_macron_diaeresis
+	<quotedbl> <underscore>	:	@_macron_diaeresis
 	<asciicircum> <underscore>	:	@_super
 	<asciicircum> <underbar>	:	@_super
 	<asciicircum>	:	@_superShort
-
 }
 
 <dead_acute>	:	@_acute
@@ -56,6 +77,7 @@
 <dead_tilde>	:	@_tilde
 <dead_caron>	:	@_caron
 <dead_abovedot>	:	@_dot
+<dead_belowdot>	:	@_belowDot
 <dead_slash>	:	@_slash
 <dead_ogonek>	:	@_ogonek
 <dead_abovering>	:	@_ring
@@ -67,6 +89,12 @@
 
 <U030F>	:	@_doubleGrave
 <U0311>	:	@_invertedBreve
+<U0324>	:	@_belowDiaeresis
+<U0325>	:	@_belowRing
 <U0326>	:	@_comma
+<U032D>	:	@_belowCircumflex
+<U032E>	:	@_belowBreve
+<U0330>	:	@_belowTilde
+<U0331>	:	@_belowLine
 
 <dead_circumflex>	:	@_superShort
