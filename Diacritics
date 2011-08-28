@@ -938,7 +938,7 @@
 	<D>	:	@D_belowCircumflex
 	<d>	:	@d_belowCircumflex
 	<E>	:	@E_belowCircumflex
-	<e>	:	@e_belowcircumflex
+	<e>	:	@e_belowCircumflex
 	<L>	:	@L_belowCircumflex
 	<l>	:	@l_belowCircumflex
 	<N>	:	@N_belowCircumflex
