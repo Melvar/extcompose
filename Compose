@@ -25,6 +25,7 @@
 	<c>	:	@_caron
 	<equal>	:	@_doubleAcute
 	<plus>	:	@_horn
+	<question>	:	@_hook
 	<macron> <quotedbl>	:	@_diaeresis_macron
 	<underscore> <quotedbl>	:	@_diaeresis_macron
 	<acute> <quotedbl>	:	@_diaeresis_acute
@@ -64,6 +65,30 @@
 	<period> <exclam>	:	@_belowDot_dot
 	<quotedbl> <macron>	:	@_macron_diaeresis
 	<quotedbl> <underscore>	:	@_macron_diaeresis
+	<acute> <asciicircum>	:	@_circumflex_acute
+	<apostrophe> <asciicircum>	:	@_circumflex_acute
+	<grave>	<asciicircum>	:	@_circumflex_grave
+	<question> <asciicircum>	:	@_circumflex_hook
+	<asciitilde> <asciicircum>	:	@_circumflex_tilde
+	<asciicircum> <exclam>	:	@_belowDot_circumflex
+	<acute> <U>	:	@_breve_acute
+	<acute> <b>	:	@_breve_acute
+	<apostrophe> <U>	:	@_breve_acute
+	<apostrophe> <b>	:	@_breve_acute
+	<grave> <U>	:	@_breve_grave
+	<grave> <b>	:	@_breve_grave
+	<question> <U>	:	@_breve_hook
+	<question> <b>	:	@_breve_hook
+	<asciitilde> <U>	:	@_breve_tilde
+	<asciitilde> <b>	:	@_breve_tilde
+	<U> <exclam>	:	@_belowDot_breve
+	<b> <exclam>	:	@_belowDot_breve
+	<acute> <plus>	:	@_horn_acute
+	<apostrophe> <plus>	:	@_horn_acute
+	<grave> <plus>	:	@_horn_grave
+	<question> <plus>	:	@_horn_hook
+	<asciitilde> <plus>	:	@_horn_tilde
+	<exclam> <plus>	:	@_horn_belowDot
 	<asciicircum> <underscore>	:	@_super
 	<asciicircum> <underbar>	:	@_super
 	<asciicircum>	:	@_superShort
@@ -85,6 +110,7 @@
 <dead_macron>	:	@_macron
 <dead_breve>	:	@_breve
 <dead_horn>	:	@_horn
+<dead_hook>	:	@_hook
 <dead_iota>	:	@_iota
 
 <U030F>	:	@_doubleGrave

@@ -3,21 +3,28 @@
 	<space>	:	"'"	apostrophe
 
 	<Multi_key>	:	@Ligatures_acute
+	<dead_circumflex>	:	@_circumflex_acute
 	<dead_diaeresis>	:	@_diaeresis_acute
 	<dead_cedilla>	:	@_cedilla_acute
 	<dead_tilde>	:	@_tilde_acute
 	<dead_abovering>	:	@_ring_acute
 	<dead_macron>	:	@_macron_acute
+	<dead_breve>	:	@_breve_acute
 	<dead_slash>	:	@_slash_acute
+	<dead_horn>	:	@_horn_acute
 	<Multi_key>	:	{
+		<asciicircum>	:	@_circumflex_acute
 		<quotedbl>	:	@_diaeresis_acute
 		<comma>	:	@_cedilla_acute
 		<asciitilde>	:	@_tilde_acute
 		<o>	:	@_ring_acute
 		<macron>	:	@_macron_acute
 		<underscore>	:	@_macron_acute
+		<U>	:	@_breve_acute
+		<b>	:	@_breve_acute
 		<slash>	:	@_slash_acute
 		<KP_Divide>	:	@_slash_acute
+		<plus>	:	@_horn_acute
 	}
 
 	<A>	:	"Á"	Aacute
@@ -54,26 +61,47 @@
 	<y>	:	"ý"	yacute
 	<Z>	:	"Ź"	Zacute
 	<z>	:	"ź"	zacute
+	"Â"	:	"Ấ"	Acircumflexacute
+	"â"	:	"ấ"	acircumflexacute
 	"Å"	:	@A_ring_acute
 	"å"	:	@a_ring_acute
+	"Ă"	:	"Ắ"	Abreveacute
+	"ă"	:	"ắ"	abreveacute
 	"Æ"	:	@AE_acute
 	"æ"	:	@ae_acute
 	"Ç"	:	@C_cedilla_acute
 	"ç"	:	@c_cedilla_acute
+	"Ê"	:	"Ế"	Ecircumflexacute
+	"ê"	:	"ế"	ecircumflexacute
 	"Ē"	:	@E_macron_acute
 	"ē"	:	@e_macron_acute
 	"Ï"	:	@I_diaeresis_acute
 	"ï"	:	@i_diaeresis_acute
+	"Ô"	:	"Ố"	Ocircumflexacute
+	"ô"	:	"ố"	ocircumflexacute
 	"Ø"	:	@O_slash_acute
 	"ø"	:	@o_slash_acute
 	"Õ"	:	@O_tilde_acute
 	"õ"	:	@o_tilde_acute
 	"Ō"	:	@O_macron_acute
 	"Ō"	:	@o_macron_acute
+	"Ơ"	:	"Ớ"	Ohornacute
+	"ơ"	:	"ớ"	ohornacute
 	"Ü"	:	@U_diaeresis_acute
 	"ü"	:	@u_diaeresis_acute
 	"Ũ"	:	@U_tilde_acute
 	"ũ"	:	@u_tilde_acute
+	"Ư"	:	"Ứ"	Uhornacute
+	"ư"	:	"ứ"	uhornacute
+}
+
+[_circumflex_acute]	:	{
+	<A>	:	"Ấ"	Acircumflexacute
+	<a>	:	"ấ"	acircumflexacute
+	<E>	:	"Ế"	Ecircumflexacute
+	<e>	:	"ế"	ecircumflexacute
+	<O>	:	"Ố"	Ocircumflexacute
+	<o>	:	"ố"	ocircumflexacute
 }
 
 [_diaeresis_acute]	:	{
@@ -112,15 +140,34 @@
 	<o>	:	@o_macron_acute
 }
 
+[_breve_acute]	:	{
+	<A>	:	"Ắ"	Abreveacute
+	<a>	:	"ắ"	abreveacute
+}
+
+[_horn_acute]	:	{
+	<O>	:	"Ớ"	Ohornacute
+	<o>	:	"ớ"	ohornacute
+	<U>	:	"Ứ"	Uhornacute
+	<u>	:	"ứ"	uhornacute
+}
+
 [_grave]	:	{
 	<space>	:	"`"	grave
 
+	<dead_circumflex>	:	@_circumflex_grave
 	<dead_diaeresis>	:	@_diaeresis_grave
 	<dead_macron>	:	@_macron_grave
+	<dead_breve>	:	@_breve_grave
+	<dead_horn>	:	@_horn_grave
 	<Multi_key>	:	{
+		<asciicircum>	:	@_circumflex_grave
 		<quotedbl>	:	@_diaeresis_grave
 		<macron>	:	@_macron_grave
 		<underscore>	:	@_macron_grave
+		<U>	:	@_breve_grave
+		<b>	:	@_breve_grave
+		<plus>	:	@_horn_grave
 	}
 
 	<A>	:	"À"	Agrave
@@ -137,12 +184,33 @@
 	<u>	:	"ù"	ugrave
 	<W>	:	"Ẁ"	Wgrave
 	<w>	:	"ẁ"	wgrave
+	<Y>	:	"Ỳ"	Ygrave
+	<y>	:	"ỳ"	ygrave
+	"Â"	:	"Ầ"	Acircumflexgrave
+	"â"	:	"ầ"	acircumflexgrave
+	"Ă"	:	"Ằ"	Abrevegrave
+	"ă"	:	"ằ"	abrevegrave
+	"Ê"	:	"Ề"	Ecircumflexgrave
+	"ê"	:	"ề"	ecircumflexgrave
 	"Ē"	:	@E_macron_grave
 	"ē"	:	@e_macron_grave
+	"Ô"	:	"Ồ"	Ocircumflexgrave
+	"ô"	:	"ồ"	ocircumflexgrave
 	"Ō"	:	@O_macron_grave
 	"ō"	:	@o_macron_grave
+	"Ơ"	:	"Ờ"	Ohorngrave
+	"ơ"	:	"ờ"	ohorngrave
 	"Ü"	:	@U_diaeresis_grave
 	"ü"	:	@u_diaeresis_grave
+	"Ư"	:	"Ừ"	Uhorngrave
+	"ư"	:	"ừ"	uhorngrave
+}
+
+[_circumflex_grave]	:	{
+	<A>	:	"Ầ"	Acircumflexgrave
+	<a>	:	"ầ"	acircumflexgrave
+	<E>	:	"Ề"	Ecircumflexgrave
+	<e>	:	"ề"	ecircumflexgrave
 }
 
 [_diaeresis_grave]	:	{
@@ -157,8 +225,24 @@
 	<o>	:	@o_macron_grave
 }
 
+[_breve_grave]	:	{
+	<A>	:	"Ằ"	Abrevegrave
+	<a>	:	"ằ"	abrevegrave
+}
+
+[_horn_grave]	:	{
+	<O>	:	"Ờ"	Ohorngrave
+	<o>	:	"ờ"	ohorngrave
+	<U>	:	"Ừ"	Uhorngrave
+	<u>	:	"ừ"	uhorngrave
+}
+
 [_circumflex]	:	{
 	<space>	:	"^"	asciicircum
+
+	<dead_belowdot>	:	@_belowDot_circumflex
+	<Multi_key> <exclam>	:	@_belowDot_circumflex
+
 	<A>	:	"Â"	Acircumflex
 	<a>	:	"â"	acircumflex
 	<C>	:	"Ĉ"	Ccircumflex
@@ -185,6 +269,21 @@
 	<y>	:	"ŷ"	ycircumflex
 	<Z>	:	@Z_circumflex
 	<z>	:	@z_circumflex
+	"Ạ"	:	"Ậ"	Acircumflexbelowdot
+	"ạ"	:	"ậ"	acircumflexbelowdot
+	"Ẹ"	:	"Ệ"	Ecircumflexbelowdot
+	"ẹ"	:	"ệ"	ecircumflexbelowdot
+	"Ọ"	:	"Ộ"	Ocircumflexbelowdot
+	"ọ"	:	"ộ"	ocircumflexbelowdot
+}
+
+[_belowDot_circumflex]	:	{
+	<A>	:	"Ậ"	Acircumflexbelowdot
+	<a>	:	"ậ"	acircumflexbelowdot
+	<E>	:	"Ệ"	Ecircumflexbelowdot
+	<e>	:	"ệ"	ecircumflexbelowdot
+	<O>	:	"Ộ"	Ocircumflexbelowdot
+	<o>	:	"ộ"	ocircumflexbelowdot
 }
 
 [_diaeresis]	:	{
@@ -273,8 +372,21 @@
 
 [_tilde]	:	{
 	<space>	:	"~"	asciitilde
+
+	<dead_circumflex>	:	@_circumflex_tilde
+	<dead_breve>	:	@_breve_tilde
+	<dead_horn>	:	@_horn_tilde
+	<Multi_key>	:	{
+		<asciicircum>	:	@_circumflex_tilde
+		<U>	:	@_breve_tilde
+		<b>	:	@_breve_tilde
+		<plus>	:	@_horn_tilde
+	}
+
 	<A>	:	"Ã"	Atilde
 	<a>	:	"ã"	atilde
+	<E>	:	"Ẽ"	Etilde
+	<e>	:	"ẽ"	etilde
 	<I>	:	"Ĩ"	Itilde
 	<i>	:	"ĩ"	itilde
 	<N>	:	"Ñ"	Ntilde
@@ -285,6 +397,41 @@
 	<u>	:	"ũ"	utilde
 	<V>	:	@V_tilde
 	<v>	:	@v_tilde
+	<Y>	:	"Ỹ"	Ytilde
+	<y>	:	"ỹ"	ytilde
+	"Â"	:	"Ẫ"	Acircumflextilde
+	"â"	:	"ẫ"	acircumflextilde
+	"Ă"	:	"Ẵ"	Abrevetilde
+	"ă"	:	"ẵ"	abrevetilde
+	"Ê"	:	"Ễ"	Ecircumflextilde
+	"ê"	:	"ễ"	ecircumflextilde
+	"Ô"	:	"Ỗ"	Ocircumflextilde
+	"ô"	:	"ỗ"	ocircumflextilde
+	"Ơ"	:	"Ỡ"	Ohorntilde
+	"ơ"	:	"ỡ"	ohorntilde
+	"Ư"	:	"Ữ"	Uhorntilde
+	"ư"	:	"ữ"	uhorntilde
+}
+
+[_circumflex_tilde]	:	{
+	<A>	:	"Ẫ"	Acircumflextilde
+	<a>	:	"ẫ"	acircumflextilde
+	<E>	:	"Ễ"	Ecircumflextilde
+	<e>	:	"ễ"	ecircumflextilde
+	<O>	:	"Ỗ"	Ocircumflextilde
+	<o>	:	"ỗ"	ocircumflextilde
+}
+
+[_breve_tilde]	:	{
+	<A>	:	"Ẵ"	Abrevetilde
+	<a>	:	"ẵ"	abrevetilde
+}
+
+[_horn_tilde]	:	{
+	<O>	:	"Ỡ"	Ohorntilde
+	<o>	:	"ỡ"	ohorntilde
+	<U>	:	"Ữ"	Uhorntilde
+	<u>	:	"ữ"	uhorntilde
 }
 
 [_caron]	:	{
@@ -416,12 +563,21 @@
 }
 
 [_belowDot]	:	{
+	<dead_horn>	:	@_horn_belowDot
+	<Multi_key> <plus>	:	@_horn_belowDot
+
+	<A>	:	"Ạ"	Abelowdot
+	<a>	:	"ạ"	abelowdot
 	<B>	:	@B_belowDot
 	<b>	:	@b_belowDot
 	<D>	:	@D_belowDot
 	<d>	:	@d_belowDot
+	<E>	:	"Ẹ"	Ebelowdot
+	<e>	:	"ẹ"	ebelowdot
 	<H>	:	@H_belowDot
 	<h>	:	@h_belowDot
+	<I>	:	"Ị"	Ibelowdot
+	<i>	:	"ị"	ibelowdot
 	<K>	:	@K_belowDot
 	<k>	:	@k_belowDot
 	<L>	:	"Ḷ"	Lbelowdot
@@ -430,18 +586,43 @@
 	<m>	:	@m_belowDot
 	<N>	:	@N_belowDot
 	<n>	:	@n_belowDot
+	<O>	:	"Ọ"	Obelowdot
+	<o>	:	"ọ"	obelowdot
 	<R>	:	@R_belowDot
 	<r>	:	@r_belowDot
 	<S>	:	@S_belowDot
 	<s>	:	@s_belowDot
 	<T>	:	@T_belowDot
 	<t>	:	@t_belowDot
+	<U>	:	"Ụ"	Ubelowdot
+	<u>	:	"ụ"	ubelowdot
 	<V>	:	@V_belowDot
 	<v>	:	@v_belowDot
 	<W>	:	@W_belowDot
 	<w>	:	@w_belowDot
+	<Y>	:	"Ỵ"	Ybelowdot
+	<y>	:	"ỵ"	ybelowdot
 	<Z>	:	@Z_belowDot
 	<z>	:	@z_belowDot
+	"Â"	:	"Ậ"	Acircumflexbelowdot
+	"â"	:	"ậ"	acircumflexbelowdot
+	"Ă"	:	"Ặ"	Abrevebelowdot
+	"ă"	:	"ặ"	abrevebelowdot
+	"Ê"	:	"Ệ"	Ecircumflexbelowdot
+	"ê"	:	"ệ"	ecircumflexbelowdot
+	"Ô"	:	"Ộ"	Ocircumflexbelowdot
+	"ô"	:	"ộ"	ocircumflexbelowdot
+	"Ơ"	:	"Ợ"	Ohornbelowdot
+	"ơ"	:	"ợ"	ohornbelowdot
+	"Ư"	:	"Ự"	Uhornbelowdot
+	"ư"	:	"ự"	uhornbelowdot
+}
+
+[_horn_belowDot]	:	{
+	<O>	:	"Ợ"	Ohornbelowdot
+	<o>	:	"ợ"	ohornbelowdot
+	<U>	:	"Ự"	Uhornbelowdot
+	<u>	:	"ự"	uhornbelowdot
 }
 
 [_stroke]	:	{
@@ -595,7 +776,11 @@
 	<space>	:	"˘"	breve
 
 	<dead_cedilla>	:	@_cedilla_breve
-	<Multi_key> <comma>	:	@_cedilla_breve
+	<dead_belowdot>	:	@_belowDot_breve
+	<Multi_key>	:	{
+		<comma>	:	@_cedilla_breve
+		<exclam>	:	@_belowDot_breve
+	}
 
 	<A>	:	"Ă"	Abreve
 	<a>	:	"ă"	abreve
@@ -609,6 +794,8 @@
 	<o>	:	@o_breve
 	<U>	:	"Ŭ"	Ubreve
 	<u>	:	"ŭ"	ubreve
+	"Ạ"	:	"Ặ"	Abrevebelowdot
+	"ạ"	:	"ặ"	abrevebelowdot
 	"Ȩ"	:	@E_cedilla_breve
 	"ȩ"	:	@e_cedilla_breve
 }
@@ -618,11 +805,74 @@
 	<e>	:	@e_cedilla_breve
 }
 
+[_belowDot_breve]	:	{
+	<A>	:	"Ặ"	Abrevebelowdot
+	<a>	:	"ặ"	abrevebelowdot
+}
+
 [_horn]	:	{
 	<O>	:	"Ơ"	Ohorn
 	<o>	:	"ơ"	ohorn
 	<U>	:	"Ư"	Uhorn
 	<u>	:	"ư"	uhorn
+}
+
+[_hook]	:	{
+	<dead_circumflex>	:	@_circumflex_hook
+	<dead_breve>	:	@_breve_hook
+	<dead_horn>	:	@_horn_hook
+	<Multi_key>	:	{
+		<asciicircum>	:	@_circumflex_hook
+		<U>	:	@_breve_hook
+		<b>	:	@_breve_hook
+		<plus>	:	@_horn_hook
+	}
+
+	<A>	:	"Ả"	Ahook
+	<a>	:	"ả"	ahook
+	<E>	:	"Ẻ"	Ehook
+	<e>	:	"ẻ"	ehook
+	<I>	:	"Ỉ"	Ihook
+	<i>	:	"ỉ"	ihook
+	<O>	:	"Ỏ"	Ohook
+	<o>	:	"ỏ"	ohook
+	<U>	:	"Ủ"	Uhook
+	<u>	:	"ủ"	uhook
+	<Y>	:	"Ỷ"	Yhook
+	<y>	:	"ỷ"	yhook
+	"Â"	:	"Ẩ"	Acircumflexhook
+	"â"	:	"ẩ"	acircumflexhook
+	"Ă"	:	"Ẳ"	Abrevehook
+	"ă"	:	"ẳ"	abrevehook
+	"Ê"	:	"Ể" Ecircumflexhook
+	"ê"	:	"ể" ecircumflexhook
+	"Ô"	:	"Ổ"	Ocircumflexhook
+	"ô"	:	"ổ"	ocircumflexhook
+	"Ơ"	:	"Ở"	Ohornhook
+	"ơ"	:	"ở"	ohornhook
+	"Ư"	:	"Ử"	Uhornhook
+	"ư"	:	"ử"	uhornhook
+}
+
+[_circumflex_hook]	:	{
+	<A>	:	"Ẩ"	Acircumflexhook
+	<a>	:	"ẩ"	acircumflexhook
+	<E>	:	"Ể" Ecircumflexhook
+	<e>	:	"ể" ecircumflexhook
+	<O>	:	"Ổ"	Ocircumflexhook
+	<o>	:	"ổ"	ocircumflexhook
+}
+
+[_breve_hook]	:	{
+	<A>	:	"Ẳ"	Abrevehook
+	<a>	:	"ẳ"	abrevehook
+}
+
+[_horn_hook]	:	{
+	<O>	:	"Ở"	Ohornhook
+	<o>	:	"ở"	ohornhook
+	<U>	:	"Ử"	Uhornhook
+	<u>	:	"ử"	uhornhook
 }
 
 [_iota]	:	{
