@@ -1,0 +1,16 @@
+
+[i_modifier]	:	"ⁱ"	U2071
+
+[plus_super]	:	"⁺"	U207A
+[minus_super]	:	"⁻"	U207B
+[equal_super]	:	"⁼"	U207C
+[parenleft_super]	:	"⁽"	U207D
+[parenright_super]	:	"⁾"	U207E
+[n_modifier]	:	"ⁿ"	U207F
+
+[plus_sub]	:	"₊"	U208A
+[minus_sub]	:	"₋"	U208B
+[equal_sub]	:	"₌"	U208C
+[parenleft_sub]	:	"₍"	U208D
+[parenright_sub]	:	"₎"	U208E
+

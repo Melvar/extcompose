@@ -970,8 +970,10 @@
 
 [_super]	:	{
 	<h>	:	@h_modifier
+	<i>	:	@i_modifier
 	<j>	:	@j_modifier
 	<l>	:	@l_modifier
+	<n>	:	@n_modifier
 	<r>	:	@r_modifier
 	<s>	:	@s_modifier
 	<w>	:	@w_modifier
@@ -991,10 +993,61 @@
 		<underbar>	:	@_super
 	}
 
+	<0>	:	"⁰"	zerosuperior
+	<KP_0>	:	"⁰"	zerosuperior
 	<1>	:	"¹"	onesuperior
 	<KP_1>	:	"¹"	onesuperior
 	<2>	:	"²"	twosuperior
 	<KP_2>	:	"²" twosuperior
 	<3>	:	"³"	threesuperior
 	<KP_3>	:	"³" threesuperior
+	<4>	:	"⁴"	foursuperior
+	<KP_4>	:	"⁴"	foursuperior
+	<5>	:	"⁵"	fivesuperior
+	<KP_5>	:	"⁵"	fivesuperior
+	<6>	:	"⁶"	sixsuperior
+	<KP_6>	:	"⁶"	sixsuperior
+	<7>	:	"⁷"	sevensuperior
+	<KP_7>	:	"⁷"	sevensuperior
+	<8>	:	"⁸"	eightsuperior
+	<KP_8>	:	"⁸"	eightsuperior
+	<9>	:	"⁹"	ninesuperior
+	<KP_9>	:	"⁹"	ninesuperior
+	<plus>	:	@plus_super
+	<KP_Add>	:	@plus_super
+	"−"	:	@minus_super
+	<equal>	:	@equal_super
+	<KP_Equal>	:	@equal_super
+	<parenleft>	:	@parenleft_super
+	<parenright>	:	@parenright_super
+}
+
+[_sub]	:	{
+	<0>	:	"₀"	zerosubscript
+	<KP_0>	:	"₀"	zerosubscript
+	<1>	:	"₁"	onesubscript
+	<KP_1>	:	"₁"	onesubscript
+	<2>	:	"₂"	twosubscript
+	<KP_2>	:	"₂"	twosubscript
+	<3>	:	"₃"	threesubscript
+	<KP_3>	:	"₃"	threesubscript
+	<4>	:	"₄"	foursubscript
+	<KP_4>	:	"₄"	foursubscript
+	<5>	:	"₅"	fivesubscript
+	<KP_5>	:	"₅"	fivesubscript
+	<6>	:	"₆"	sixsubscript
+	<KP_6>	:	"₆"	sixsubscript
+	<7>	:	"₇"	sevensubscript
+	<KP_7>	:	"₇"	sevensubscript
+	<8>	:	"₈"	eightsubscript
+	<KP_8>	:	"₈"	eightsubscript
+	<9>	:	"₉"	ninesubscript
+	<KP_9>	:	"₉"	ninesubscript
+	<plus>	:	@plus_sub
+	<KP_Add>	:	@plus_sub
+	"−"	:	@minus_sub
+	<equal>	:	@equal_sub
+	<KP_Equal>	:	@equal_sub
+	<parenleft>	:	@parenleft_sub
+	<parenright>	:	@parenright_sub
 }

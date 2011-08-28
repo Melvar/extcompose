@@ -92,6 +92,8 @@
 	<asciicircum> <underscore>	:	@_super
 	<asciicircum> <underbar>	:	@_super
 	<asciicircum>	:	@_superShort
+	<underscore>	:	@_sub
+	<underbar>	:	@_sub
 }
 
 <dead_acute>	:	@_acute
