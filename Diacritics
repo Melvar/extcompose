@@ -1,6 +1,8 @@
 
 [_acute]	:	{
 	<space>	:	"'"	apostrophe
+	<nobreakspace>	:	"´"	acute
+	<dead_acute>	:	@combiningAcute
 
 	<Multi_key>	:	@Ligatures_acute
 	<dead_circumflex>	:	@_circumflex_acute
@@ -154,6 +156,8 @@
 
 [_grave]	:	{
 	<space>	:	"`"	grave
+	<nobreakspace>	:	"`"	grave
+	<dead_grave>	:	@combiningGrave
 
 	<dead_circumflex>	:	@_circumflex_grave
 	<dead_diaeresis>	:	@_diaeresis_grave
@@ -239,6 +243,8 @@
 
 [_circumflex]	:	{
 	<space>	:	"^"	asciicircum
+	<nobreakspace>	:	@circumflex
+	<dead_circumflex>	:	@combiningCircumflex
 
 	<dead_belowdot>	:	@_belowDot_circumflex
 	<Multi_key> <exclam>	:	@_belowDot_circumflex
@@ -288,6 +294,8 @@
 
 [_diaeresis]	:	{
 	<space>	:	"\""	quotedbl
+	<nobreakspace>	:	"¨"	diaeresis
+	<dead_diaeresis>	:	@combiningDiaeresis
 
 	<dead_tilde>	:	@_tilde_diaeresis
 	<dead_macron>	:	@_macron_diaeresis
@@ -334,6 +342,8 @@
 
 [_cedilla]	:	{
 	<space>	:	"¸"	cedilla
+	<nobreakspace>	:	"¸"	cedilla
+	<dead_cedilla>	:	@combiningCedilla
 	:	@_cedillaXorComma
 	<S>	:	"Ş"	Scedilla
 	<s>	:	"ş"	scedilla
@@ -372,6 +382,8 @@
 
 [_tilde]	:	{
 	<space>	:	"~"	asciitilde
+	<nobreakspace>	:	@tilde
+	<dead_tilde>	:	@combiningTilde
 
 	<dead_circumflex>	:	@_circumflex_tilde
 	<dead_breve>	:	@_breve_tilde
@@ -436,6 +448,8 @@
 
 [_caron]	:	{
 	<space>	:	"ˇ"	caron
+	<nobreakspace>	:	"ˇ"	caron
+	<dead_caron>	:	@combiningCaron
 
 	<Multi_key>	:	@Extended_Latin_caron
 	<dead_diaeresis>	:	@_diaeresis_caron
@@ -487,6 +501,8 @@
 
 [_dot]	:	{
 	<space>	:	"˙"	abovedot
+	<nobreakspace>	:	"˙"	abovedot
+	<dead_abovedot>	:	@combiningDot
 
 	<dead_acute>	:	@_acute_dot
 	<dead_caron>	:	@_caron_dot
@@ -563,6 +579,10 @@
 }
 
 [_belowDot]	:	{
+	<space>	:	"."	period
+	<nobreakspace>	:	"."	period
+	<dead_belowdot>	:	@combiningBelowDot
+
 	<dead_horn>	:	@_horn_belowDot
 	<Multi_key> <plus>	:	@_horn_belowDot
 
@@ -645,6 +665,10 @@
 }
 
 [_slash]	:	{
+	<space>	:	"/"	slash
+	<nobreakspace>	:	"/"	slash
+	<dead_stroke>	:	@combiningShortSlash
+
 	:	@_stroke
 	<O>	:	"Ø"	Ooblique
 	<o>	:	"ø"	ooblique
@@ -656,6 +680,8 @@
 
 [_ogonek]	:	{
 	<space>	:	"˛"	ogonek
+	<nobreakspace>	:	"˛"	ogonek
+	<dead_cedilla>	:	@combiningOgonek
 	<A>	:	"Ą"	Aogonek
 	<a>	:	"ą"	aogonek
 	<E>	:	"Ę"	Eogonek
@@ -670,6 +696,8 @@
 
 [_ring]	:	{
 	<space>	:	"°"	degree
+	<nobreakspace>	:	@ring
+	<dead_abovering>	:	@combiningRing
 	<A>	:	"Å"	Aring
 	<a>	:	"å"	aring
 	<U>	:	"Ů"	Uring
@@ -680,6 +708,8 @@
 
 [_doubleAcute]	:	{
 	<space>	:	"˝"	doubleacute
+	<nobreakspace	:	"˝"	doubleacute
+	<dead_doubleacute>	:	@combiningDoubleAcute
 	<O>	:	"Ő"	Odoubleacute
 	<o>	:	"ő"	odoubleacute
 	<U>	:	"Ű"	Udoubleacute
@@ -688,6 +718,8 @@
 
 [_macron]	:	{
 	<space>	:	"¯"	macron
+	<nobreakspace>	:	"¯"	macron
+	<dead_macron>	:	@combiningMacron
 
 	<dead_diaeresis>	:	@_diaeresis_macron
 	<dead_tilde>	:	@_tilde_macron
@@ -774,6 +806,8 @@
 
 [_breve]	:	{
 	<space>	:	"˘"	breve
+	<nobreakspace>	:	"˘"	breve
+	<dead_breve>	:	@combiningBreve
 
 	<dead_cedilla>	:	@_cedilla_breve
 	<dead_belowdot>	:	@_belowDot_breve
@@ -879,7 +913,22 @@
 	<space>	:	@hypogegrammeni
 }
 
+[_psili]	:	{
+	<space>	:	@psili
+	<nobreakspace>	:	@psili
+	<dead_psili>	:	@combiningPsili
+}
+
+[_dasia]	:	{
+	<space>	:	@dasia
+	<nobreakspace>	:	@dasia
+	<dead_dasia>	:	@combiningDasia
+}
+
 [_doubleGrave]	:	{
+	<nobreakspace>	:	@doubleGrave_middle
+	<U030F>	:	@combiningDoubleGrave
+	<dead_doubleacute>	:	@combiningDoubleGrave
 	<A>	:	@A_doubleGrave
 	<a>	:	@a_doubleGrave
 	<E>	:	@E_doubleGrave
@@ -895,6 +944,8 @@
 }
 
 [_invertedBreve]	:	{
+	<dead_breve>	:	@combiningInvertedBreve
+
 	<A>	:	@A_invertedBreve
 	<a>	:	@a_invertedBreve
 	<E>	:	@E_invertedBreve
@@ -966,6 +1017,19 @@
 [_belowBreve]	:	{
 	<H>	:	@H_belowBreve
 	<h>	:	@h_belowBreve
+}
+
+[_turn]	:	{
+	<space>	:	@turnArrow
+	<nobreakspace>	:	@turnArrow
+	<dead_cedilla>	:	@_ogonek
+	<dead_doubleacute>	:	@_doubleGrave
+}
+
+[_topHook]	:	{
+	<space>	:	@rhoticHook
+	<nobreakspace>	:	@rhoticHook
+	"˞"	:	@rhoticHook
 }
 
 [_super]	:	{

@@ -10,8 +10,18 @@
 
 [Glottalstop_reversed_modifier]	:	"ˤ" U02C1
 
+[circumflex]	:	"ˆ"	U02C6
+
+[ring]	:	"˚"	U02DA
+
+[tilde]	:	"˜"	U02DC
+
+[rhoticHook]	:	"˞"	U02DE
+
 [gamma_modifier]	:	"ˠ"	U02E0
 [l_modifier]	:	"ˡ"	U02E1
 [s_modifier]	:	"ˢ"	U02E2
 [x_modifier]	:	"ˣ"	U02E3
+
+[doubleGrave_middle]	:	"˵"	U02F5
 

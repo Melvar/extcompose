@@ -1,0 +1,28 @@
+[combiningGrave]	:	"̀"	U0300
+[combiningAcute]	:	"́"	U0301
+[combiningCircumflex]	:	"̂"	U0302
+[combiningTilde]	:	"̃"	U0303
+[combiningMacron]	:	"̄"	U0304
+
+[combiningBreve]	:	"̆"	U0306
+[combiningDot]	:	"̇"	U0307
+[combiningDiaeresis]	:	"̈"	U0308
+
+[combiningRing]	:	"̊"	U030A
+[combiningDoubleAcute]	:	"̋"	U030B
+[combiningCaron]	:	"̌"	U030C
+
+[combiningDoubleGrave]	:	"̏"	U030F
+
+[combiningInvertedBreve]	:	"̑"	U0311
+
+[combiningPsili]	:	"̓"	U0313
+[combiningDasia]	:	"̔"	U0314
+
+[combiningBelowDot]	:	"̣"	U0323
+
+[combiningCedilla]	:	"̧"	U0327
+[combiningOgonek]	:	"̨"	U0328
+
+[combiningShortSlash]	:	"̷"	U0337
+

@@ -114,6 +114,8 @@
 <dead_horn>	:	@_horn
 <dead_hook>	:	@_hook
 <dead_iota>	:	@_iota
+<dead_psili>	:	@_psili
+<dead_dasia>	:	@_dasia
 
 <U030F>	:	@_doubleGrave
 <U0311>	:	@_invertedBreve
@@ -124,5 +126,8 @@
 <U032E>	:	@_belowBreve
 <U0330>	:	@_belowTilde
 <U0331>	:	@_belowLine
+
+"↻"	:	@_turn
+"˞"	:	@_topHook
 
 <dead_circumflex>	:	@_superShort
