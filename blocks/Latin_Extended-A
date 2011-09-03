@@ -2,6 +2,12 @@
 [E_breve]	:	"Ĕ"	U0114	#LATIN CAPITAL LETTER E WITH BREVE
 [e_breve]	:	"ĕ"	U0115	#LATIN SMALL LETTER E WITH BREVE
 
+[IJ]	:	"Ĳ"	U0132
+[ij]	:	"ĳ"	U0133
+
+[L_middleDot]	:	"Ŀ"	U013F
+[l_middleDot]	:	"ŀ"	U0140
+
 [O_breve]	:	"Ŏ"	U014E	#LATIN CAPITAL LETTER O WITH BREVE
 [o_breve]	:	"ŏ"	U014F	#LATIN SMALL LETTER O WITH BREVE
 

@@ -2,14 +2,38 @@
 [Ligatures]	:	{
 	"AE"	:	"Æ"	AE
 	"ae"	:	"æ"	ae
+	"DZ"	:	@DZ
+	"Dz"	:	@Dz
+	"dz"	:	@dz
+	"ff"	:	@ff
+	"Fi"	:	@ffi
+	"fi"	:	@fi
+	"Fl"	:	@ffl
+	"fl"	:	@fl
+	"IJ"	:	@IJ
+	"ij"	:	@ij
+	"LJ"	:	@LJ
+	"Lj"	:	@Lj
+	"lj"	:	@lj
+	"NJ"	:	@NJ
+	"Nj"	:	@Nj
+	"nj"	:	@nj
 	"OE"	:	"Œ"	OE
 	"oe"	:	"œ"	oe
 	"ss"	:	"ß"	ssharp
+	"st"	:	@st
+	"ſt"	:	@longst
 }
 
 [Ligatures_acute]	:	{
 	"AE"	:	@AE_acute
 	"ae"	:	@ae_acute
+}
+
+[Ligatures_caron]	:	{
+	"DZ"	:	@DZ_caron
+	"Dz"	:	@Dz_caron
+	"dz"	:	@dz_caron
 }
 
 [Ligatures_macron]	:	{
@@ -20,12 +44,16 @@
 [Extended_Latin]	:	{
 	"DH"	:	"Ð"	ETH
 	"dh"	:	"ð"	eth
+	"EE"	:	"Ə"	SCHWA
 	"ee"	:	"ə"	schwa
+	"II"	:	"İ"	Iabovedot
+	"ii"	:	"ı"	idotless
 	"kk"	:	"ĸ"	kra
 	"NG"	:	"Ŋ"	ENG
 	"ng"	:	"ŋ"	eng
 	"TH"	:	"Þ"	THORN
 	"th"	:	"þ"	thorn
+	"zh"	:	@ezh
 }
 
 [Extended_Latin_caron]	:	{

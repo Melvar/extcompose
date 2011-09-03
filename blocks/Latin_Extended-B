@@ -3,6 +3,15 @@
 
 [I_stroke]	:	"Ɨ"	U0197	#LATIN CAPITAL LETTER I WITH STROKE
 
+[DZ_caron]	:	"Ǆ"	U01C4
+[Dz_caron]	:	"ǅ"	U01C5
+[dz_caron]	:	"ǆ"	U01C6
+[LJ]	:	"Ǉ"	U01C7
+[Lj]	:	"ǈ"	U01C8
+[lj]	:	"ǉ"	U01C9
+[NJ]	:	"Ǌ"	U01CA
+[Nj]	:	"ǋ"	U01CB
+[nj]	:	"ǌ"	U01CC
 [A_caron]	:	"Ǎ"	U01CD	#LATIN CAPITAL LETTER A WITH CARON
 [a_caron]	:	"ǎ"	U01CE	#LATIN SMALL LETTER A WITH CARON
 [I_caron]	:	"Ǐ"	U01CF	#LATIN CAPITAL LETTER I WITH CARON
@@ -37,7 +46,9 @@
 [EZH_caron]	:	"Ǯ"	U01EE	#LATIN CAPITAL LETTER EZH WITH CARON
 [ezh_caron]	:	"ǯ"	U01EF	#LATIN SMALL LETTER EZH WITH CARON
 [j_caron]	:	"ǰ"	U01F0	#LATIN SMALL LETTER J WITH CARON
-
+[DZ]	:	"Ǳ"	U01F1
+[Dz]	:	"ǲ"	U01F2
+[dz]	:	"ǳ"	U01F3
 [G_acute]	:	"Ǵ"	U01F4	#LATIN CAPITAL LETTER G WITH ACUTE
 [g_acute]	:	"ǵ"	U01F5	#LATIN SMALL LETTER G WITH ACUTE
 
@@ -96,7 +107,7 @@
 [Y_macron]	:	"Ȳ"	U0232
 [y_macron]	:	"ȳ"	U0233
 
-
+[j_dotless]	:	"ȷ"	U0237
 
 
 

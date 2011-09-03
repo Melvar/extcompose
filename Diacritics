@@ -385,6 +385,8 @@
 	<nobreakspace>	:	@tilde
 	<dead_tilde>	:	@combiningTilde
 
+	:	@_middleTilde	#Neo2 tilde unification
+
 	<dead_circumflex>	:	@_circumflex_tilde
 	<dead_breve>	:	@_breve_tilde
 	<dead_horn>	:	@_horn_tilde
@@ -446,12 +448,20 @@
 	<u>	:	"ữ"	uhorntilde
 }
 
+[_middleTilde]	:	{
+	<L>	:	@L_middleTilde
+	<l>	:	@l_middleTilde
+}
+
 [_caron]	:	{
 	<space>	:	"ˇ"	caron
 	<nobreakspace>	:	"ˇ"	caron
 	<dead_caron>	:	@combiningCaron
 
-	<Multi_key>	:	@Extended_Latin_caron
+	<Multi_key>	:	{
+		:	@Ligatures_caron
+		:	@Extended_Latin_caron
+	}
 	<dead_diaeresis>	:	@_diaeresis_caron
 	<Multi_key> <quotedbl>	:	@_diaeresis_caron
 
@@ -504,6 +514,8 @@
 	<nobreakspace>	:	"˙"	abovedot
 	<dead_abovedot>	:	@combiningDot
 
+	:	@_middleDot	#Neo2 dot unification
+
 	<dead_acute>	:	@_acute_dot
 	<dead_caron>	:	@_caron_dot
 	<dead_belowdot>	:	@_belowDot_dot
@@ -532,6 +544,7 @@
 	<h>	:	@h_dot
 	<I>	:	"İ"	Iabovedot
 	<i>	:	"ı"	idotless
+	<j>	:	@j_dotless
 	<M>	:	"Ṁ"	Mabovedot
 	<m>	:	"ṁ"	mabovedot
 	<N>	:	@N_dot
@@ -576,6 +589,11 @@
 [_belowDot_dot]	:	{
 	<S>	:	@S_belowDot_dot
 	<s>	:	@s_belowDot_dot
+}
+
+[_middleDot]	:	{
+	<L>	:	@L_middleDot
+	<l>	:	@l_middleDot
 }
 
 [_belowDot]	:	{
@@ -708,7 +726,7 @@
 
 [_doubleAcute]	:	{
 	<space>	:	"˝"	doubleacute
-	<nobreakspace	:	"˝"	doubleacute
+	<nobreakspace>	:	"˝"	doubleacute
 	<dead_doubleacute>	:	@combiningDoubleAcute
 	<O>	:	"Ő"	Odoubleacute
 	<o>	:	"ő"	odoubleacute
@@ -721,11 +739,14 @@
 	<nobreakspace>	:	"¯"	macron
 	<dead_macron>	:	@combiningMacron
 
+	:	@_belowLine	#Neo2 line unification
+
 	<dead_diaeresis>	:	@_diaeresis_macron
 	<dead_tilde>	:	@_tilde_macron
 	<dead_abovedot>	:	@_dot_macron
 	<dead_belowdot>	:	@_belowDot_macron
 	<dead_ogonek>	:	@_ogonek_macron
+	<dead_cedilla>	:	@_ogonek_macron	#Neo2 tail unification
 	<Multi_key>	:	{
 		:	@Ligatures_macron
 		<quotedbl>	:	@_diaeresis_macron
@@ -808,6 +829,8 @@
 	<space>	:	"˘"	breve
 	<nobreakspace>	:	"˘"	breve
 	<dead_breve>	:	@combiningBreve
+
+	:	@_belowBreve	#Neo2 breve unification
 
 	<dead_cedilla>	:	@_cedilla_breve
 	<dead_belowdot>	:	@_belowDot_breve
@@ -1022,7 +1045,8 @@
 [_turn]	:	{
 	<space>	:	@turnArrow
 	<nobreakspace>	:	@turnArrow
-	<dead_cedilla>	:	@_ogonek
+	<dead_cedilla>	:	@_ogonekOrCedilla	#Neo2 tail unification
+	<dead_breve>	:	@_invertedBreve
 	<dead_doubleacute>	:	@_doubleGrave
 }
 
@@ -1114,4 +1138,15 @@
 	<KP_Equal>	:	@equal_sub
 	<parenleft>	:	@parenleft_sub
 	<parenright>	:	@parenright_sub
+}
+
+#the following groups are for the Neo2 unifications
+[_cedillaOrOgonek]	:	{
+	:	@_cedilla
+	:	@_ogonek
+}
+
+[_ogonekOrCedilla]	:	{
+	:	@_ogonek
+	:	@_cedilla
 }

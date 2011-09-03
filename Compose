@@ -100,7 +100,7 @@
 <dead_grave>	:	@_grave
 <dead_circumflex>	:	@_circumflex
 <dead_diaeresis>	:	@_diaeresis
-<dead_cedilla>	:	@_cedilla
+<dead_cedilla>	:	@_cedillaOrOgonek
 <dead_tilde>	:	@_tilde
 <dead_caron>	:	@_caron
 <dead_abovedot>	:	@_dot
@@ -131,3 +131,4 @@
 "˞"	:	@_topHook
 
 <dead_circumflex>	:	@_superShort
+<dead_caron>	:	@_sub
