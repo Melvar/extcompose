@@ -1,0 +1,121 @@
+
+<Multi_key>	:	{
+	<space>	:	@_space
+	<colon>	:	@_symbol
+	<dollar>	:	@_currency
+	<ampersand>	:	@words
+	<o>	:	@_circledSym
+	<O>	:	@_circledSym
+
+	<period> <period>	:	"·"	periodcentered
+	<bar> <colon>	:	"¦"	brokenbar
+	<S> <M>	:	@serviceMark
+	<T> <M>	:	"™"	trademark
+	<t> <m>	:	"™"	trademark
+	<plus> <minus>	:	"±"	plusminus
+	<x> <x>	:	"×"	multiply
+	<colon> <minus>	:	"÷"	division
+	<percent> <0>	:	@permille
+	<Greek_mu> <Greek_mu>	:	"µ"	mu
+}
+
+[_space]	:	{
+	<space>	:	" " nobreakspace
+	<period>	:	" " punctspace
+}
+
+[_stroke]	:	{
+	:	@_not
+
+	<leftarrow>	:	@leftArrow_stroke
+	<rightarrow>	:	@rightArrow_stroke
+	"↔"	:	@leftRightArrow_stroke
+}
+
+[_not]	:	{
+	"∃"	:	@exists_not
+	<elementof>	:	notelementof
+	<containsas>	:	@contains_not
+	"∣"	:	@divides_not
+	"∥"	:	@parallel_not
+	<approximate>	:	@tildeOp_not
+	<similarequal>	:	@asymptoticEquals_not
+	"≅"	:	@approxEquals_not
+	"≈"	:	@almostEquals_not
+	<equal>	:	"≠"	notequal
+	<KP_Equal>	:	"≠"	notequal
+	<identical>	:	"≢"	notidentical
+	"≍"	:	@equivalent_not
+	<less>	:	@less_not
+	<greater>	:	@greater_not
+	<lessthanequal>	:	@lessEquals_not
+	<greaterthanequal>	:	@greaterEquals_not
+	"≲"	:	@lessEquivalent_not
+	"≳"	:	@greaterEquivalent_not
+	"≶"	:	@lessGreater_not
+	"≷"	:	@greaterLess_not
+	"≺"	:	@precedes_not
+	"≻"	:	@succeeds_not
+	<includedin>	:	@subset_not
+	<includes>	:	@superset_not
+	"⊆"	:	@subsetEquals_not
+	"⊇"	:	@supersetEquals_not
+	<righttack>	:	@rightTack_not
+	"⊨"	:	@true_not
+	"⊩"	:	@forces_not
+	"⊫"	:	@doubleRightTack_not
+	"≼"	:	@precedesEquals_not
+	"≽"	:	@succeedsEquals_not
+	"⊑"	:	@squareImageEquals_not
+	"⊒"	:	@squareOriginalEquals_not
+	"⊲"	:	@normalSubgroup_not
+	"⊳"	:	@hasNormalSubgroup_not
+	"⊴"	:	@normalSubgroupEquals_not
+	"⊵"	:	@hasNormalSubgroupEquals_not
+	"⫝"	:	@forking
+}
+
+[_turn]	:	{
+	<exclam>	:	"¡"	exclamdown
+	<question>	:	"¿"	questiondown
+}
+
+[_symbol]	:	{
+	<P>	:	"¶"	paragraph
+	<p>	:	"¶"	paragraph
+}
+
+[_currency]	:	{
+	<C>	:	"₡"	ColonSign
+	<c>	:	"¢"	cent
+	<d>	:	"₫"	DongSign
+	"đ"	:	"₫"	DongSign
+	<E>	:	"₠"	EcuSign
+	<e>	:	"€"	EuroSign
+	<F>	:	"₣"	FFrancSign
+	<L>	:	"₤"	LiraSign
+	<l>	:	"£"	sterling
+	<m>	:	"₥"	MillSign
+	<N>	:	"₦"	NairaSign
+	<P>	:	"₧"	PesetaSign
+	<R>	:	"₨"	RupeeSign # this is legacy usage only
+	<W>	:	"₩"	WonSign
+	<x>	:	"¤"	currency
+	<Y>	:	"¥"	yen
+	"ß"	:	"₪"	NewSheqelSign
+	".C"	:	"₢"	CruzeiroSign
+}
+
+[_circledSym]	:	{
+	<C>	:	"©"	copyright
+	<c>	:	"©"	copyright
+	<R>	:	"®"	registered
+	<r>	:	"®"	registered
+}
+
+[words]	{
+	"flat"	:	"♭"	musicalflat
+	"natural"	:	@musicNatural
+	"sharp"	:	"♯"	musicalsharp
+}
+

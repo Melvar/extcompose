@@ -1,0 +1,53 @@
+
+[exists_not]	:	"∄"	U2204
+
+[contains_not]	:	"∌"	U220C
+
+[divides_not]	:	"∤"	U2224
+
+[parallel_not]	:	"∦"	U2226
+
+[tildeOp_not]	:	"≁"	U2241
+
+[asymptoticEquals_not]	:	"≄"	U2244
+
+[approxEquals_not]	:	"≇"	U2247
+
+[almostEquals_not]	:	"≉"	U2249
+
+[equivalent_not]	:	"≭"	U226D
+[less_not]	:	"≮"	U226E
+[greater_not]	:	"≯"	U226F
+[lessEquals_not]	:	"≰"	U2270
+[greaterEquals_not]	:	"≱"	U2271
+
+[lessEquivalent_not]	:	"≴"	U2274
+[greaterEquivalent_not]	:	"≵"	U2275
+
+[lessGreater_not]	:	"≸"	U2278
+[greaterLess_not]	:	"≹"	U2279
+
+[precedes_not]	:	"⊀"	U2280
+[succeeds_not]	:	"⊁"	U2281
+
+[subset_not]	:	"⊄"	U2284
+[superset_not]	:	"⊅"	U2285
+
+[subsetEquals_not]	:	"⊈"	U2288
+[supersetEquals_not]	:	"⊉"	U2289
+
+[rightTack_not]	:	"⊬"	U22AC
+[true_not]	:	"⊭"	U22AD
+[forces_not]	:	"⊮"	U22AE
+[doubleRightTack_not]	:	"⊯"	U22AF
+
+[precedesEquals_not]	:	"⋠"	U22E0
+[succeedsEquals_not]	:	"⋡"	U22E1
+[squareImageEquals_not]	:	"⋢"	U22E2
+[squareOriginalEquals_not]	:	"⋣"	U22E3
+
+[normalSubgroup_not]	:	"⋪"	U22EA
+[hasNormalSubgroup_not]	:	"⋫"	U22EB
+[normalSubgroupEquals_not]	:	"⋬"	U22EC
+[hasNormalSubgroupEquals_not]	:	"⋭"	U22ED
+
