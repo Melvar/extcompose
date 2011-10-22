@@ -128,7 +128,7 @@
 <U0331>	:	@_belowLine
 
 "↻"	:	@_turn
-"˞"	:	@_topHook
+"˞"	:	@_hooked
 
 <dead_circumflex>	:	@_superShort
 <dead_caron>	:	@_sub

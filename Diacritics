@@ -1050,7 +1050,7 @@
 	<dead_doubleacute>	:	@_doubleGrave
 }
 
-[_topHook]	:	{
+[_hooked]	:	{
 	<space>	:	@rhoticHook
 	<nobreakspace>	:	@rhoticHook
 	"˞"	:	@rhoticHook
@@ -1068,7 +1068,7 @@
 	<w>	:	@w_modifier
 	<x>	:	@x_modifier
 	<y>	:	@y_modifier
-	"ɦ"	:	@h_topHook_modifier
+	"ɦ"	:	@h_hooked_modifier
 	"ɣ"	:	@gamma_modifier
 	"ɹ"	:	@r_turn_modifier
 	"ɻ"	:	@r_turn_retroflex_modifier
