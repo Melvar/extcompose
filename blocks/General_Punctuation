@@ -1,3 +1,15 @@
 
+[triangularBullet]	:	"‣"	U2023
+
 [permille]	:	"‰"	U2030
+
+[exclamation_double]	:	"‼"	U203C
+[interrobang]	:	"‽"	U203D
+
+[question_double]	:	"⁇"	U2047
+[questionExclamation]	:	"⁈"	U2048
+[exclamationQuestion]	:	"⁉"	U2049
+[tironianEt]	:	"⁊"	U204A
+
+[commercialMinus]	:	"⁒"	U2052
 

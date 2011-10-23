@@ -8,6 +8,8 @@
 [w_modifier]	:	"ʷ"	U02B7
 [y_modifier]	:	"ʸ"	U02B8
 
+[apostrophe_modifier]	:	"ʼ"	U02BC
+
 [Glottalstop_reversed_modifier]	:	"ˤ" U02C1
 
 [circumflex]	:	"ˆ"	U02C6

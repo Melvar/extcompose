@@ -1,3 +1,24 @@
 
+[ballotCheck]	:	"☑"	U2611
+[ballotX]	:	"☒"	U2612
+
+[frowningFace]	:	"☹"	U2639
+[smilingFace]	:	"☺"	U263A
+
+[mercury]	:	"☿"	U263F
+
+[earth]	:	"♁"	U2641
+
+[eighthNotes]	:	"♫"	U266B
+
 [musicNatural]	:	"♮"	U266E
+
+[warning]	:	"⚠"	U26A0
+
+[female_double]	:	"⚢"	U26A2
+[male_double]	:	"⚣"	U26A3
+[femaleMale]	:	"⚤"	U26A4
+
+[trans]	:	"⚦"	U26A6
+[transHerm]	:	"⚧"	U26A7
 

@@ -6,6 +6,10 @@
 	<ampersand>	:	@words
 	<o>	:	@_circledSym
 	<O>	:	@_circledSym
+	<ellipsis>	:	@_dotted
+
+	<Tab>	:	@eighthNotes
+	<Multi_key>	:	@eighthNotes
 
 	<period> <period>	:	"·"	periodcentered
 	<bar> <colon>	:	"¦"	brokenbar
@@ -17,6 +21,34 @@
 	<colon> <minus>	:	"÷"	division
 	<percent> <0>	:	@permille
 	<Greek_mu> <Greek_mu>	:	"µ"	mu
+	<rightsinglequotemark> <rightsinglequotemark>	:	@apostrophe_modifier
+	<exclam> <exclam>	:	@exclamation_double
+	<question> <question>	:	@question_double
+	<question> <ampersand> <exclam>	:	@questionExclamation
+	<exclam> <ampersand> <question>	:	@exclamationQuestion
+	<question> <exclam>	:	@interrobang
+	<exclam> <question>	:	@interrobang
+	<questiondown> <exclamdown>	:	@interrobang_turn
+	<exclamdown> <questiondown>	:	@interrobang_turn
+	<dagger> <dagger>	:	"‡"	doubledagger
+	<7> <ampersand>	:	@tironianEt
+	<KP_7> <ampersand>	:	@tironianEt
+	<colon> <parenright>	:	@smilingFace
+	<colon> <parenleft>	:	@frowningFace
+	<c> <slash> <o>	:	"℅"	careof
+	<femalesymbol> <femalesymbol>	:	@female_double
+	<malesymbol> <malesymbol>	:	@male_double
+	<femalesymbol> <malesymbol>	:	@femaleMale
+	<malesymbol> <femalesymbol>	:	@femaleMale
+	<less> <3>	:	"♥"	heart
+	<less> <KP_3>	:	"♥"	heart
+	<bracketleft> <bracketright>	:	@whiteSquare
+	"□✔"	:	@ballotCheck
+	"□✘"	:	@ballotX
+	<Greek_DELTA> <exclam>	:	@warning
+	<enfilledcircbullet> <enfilledcircbullet>	:	@triangularBullet
+
+	<underscore> <underscore>	:	@combiningLowLine
 }
 
 [_space]	:	{
@@ -30,11 +62,15 @@
 	<leftarrow>	:	@leftArrow_stroke
 	<rightarrow>	:	@rightArrow_stroke
 	"↔"	:	@leftRightArrow_stroke
+	<malesymbol>	:	@trans
+	"⚥"	:	@transHerm
+	<backslash>	:	"✗"	ballotcross
+	<colon>	:	@commercialMinus
 }
 
 [_not]	:	{
 	"∃"	:	@exists_not
-	<elementof>	:	notelementof
+	<elementof>	:	"∉"	notelementof
 	<containsas>	:	@contains_not
 	"∣"	:	@divides_not
 	"∥"	:	@parallel_not
@@ -78,6 +114,17 @@
 [_turn]	:	{
 	<exclam>	:	"¡"	exclamdown
 	<question>	:	"¿"	questiondown
+	<colon>	:	"‥"	doubbaselinedot
+	<ellipsis>	:	@verticalEllipsis
+	<femalesymbol>	:	@earth
+	<bracketright>	:	@openBox
+	"⇌"	:	@leftHarpoonOverRightHarpoon
+}
+
+[_hooked]	:	{
+	<slash>	:	"✓"	checkmark
+	<KP_Divide>	:	"✓"	checkmark
+	"␣"	:	@shoulderedOpenBox
 }
 
 [_symbol]	:	{
@@ -98,6 +145,7 @@
 	<m>	:	"₥"	MillSign
 	<N>	:	"₦"	NairaSign
 	<P>	:	"₧"	PesetaSign
+	<p>	:	@pfennig
 	<R>	:	"₨"	RupeeSign # this is legacy usage only
 	<W>	:	"₩"	WonSign
 	<x>	:	"¤"	currency
@@ -113,9 +161,21 @@
 	<r>	:	"®"	registered
 }
 
-[words]	{
+[_dotted]	:	{
+	<o>	:	@circle_dotted
+	<bar>	:	@verticalEllipsis
+}
+
+[_breve]	:	{
+	<femalesymbol>	:	@mercury
+}
+
+[words]	:	{
 	"flat"	:	"♭"	musicalflat
 	"natural"	:	@musicNatural
 	"sharp"	:	"♯"	musicalsharp
+	"poi"	:	@placeOfInterest
+	"opt"	:	@optionKey
+	"dag"	:	"†"	dagger
 }
 

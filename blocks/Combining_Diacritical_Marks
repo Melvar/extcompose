@@ -24,5 +24,7 @@
 [combiningCedilla]	:	"̧"	U0327
 [combiningOgonek]	:	"̨"	U0328
 
+[combiningLowLine]	:	"̲"	U0332
+
 [combiningShortSlash]	:	"̷"	U0337
 
