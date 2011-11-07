@@ -71,7 +71,7 @@
 [subset_not]	:	"⊄"	U2284
 [superset_not]	:	"⊅"	U2285
 [subsetEquals]	:	"⊆"	U2286
-[superSetEquals]	:	"⊇"	U2287
+[supersetEquals]	:	"⊇"	U2287
 
 [subsetEquals_not]	:	"⊈"	U2288
 [supersetEquals_not]	:	"⊉"	U2289

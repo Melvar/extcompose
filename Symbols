@@ -394,7 +394,7 @@
 	<colon>	:	@proportion
 	<less>	:	@less_2
 	<greater>	:	@greater_2
-	<equal>	:	@equal_2
+	<equal>	:	@equals_2
 }
 
 [_3]	:	{
@@ -402,7 +402,7 @@
 	<integral>	:	"∭"	tintegral
 	<less>	:	@less_3
 	<greater>	:	@greater_3
-	<equal>	:	@equal_3
+	<equal>	:	@equals_3
 }
 
 [_4]	:	{
