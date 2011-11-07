@@ -1,4 +1,9 @@
 
+[leftCeiling]	:	"⌈"	U2308
+[rightCeiling]	:	"⌉"	U2309
+[leftFloor]	:	"⌊"	U230A
+[rightFloor]	:	"⌋"	U230B
+
 [placeOfInterest]	:	"⌘"	U2318
 
 [optionKey]	:	"⌥"	U2325

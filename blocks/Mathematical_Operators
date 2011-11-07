@@ -3,17 +3,55 @@
 
 [contains_not]	:	"∌"	U220C
 
+[product]	:	"∏"	U220F
+[coproduct]	:	"∐"	U2210
+[summation]	:	"∑"	U2211
+
+[minusPlus]	:	"∓"	U2213
+[plus_dot]	:	"∔"	U2214
+
+[setMinus]	:	"∖"	U2216
+[asteriskOp]	:	"∗"	U2217
+
+[sphereAngle]	:	"∢"	U2222
+[divides]	:	"∣"	U2223
 [divides_not]	:	"∤"	U2224
 
 [parallel_not]	:	"∦"	U2226
 
+[contourIntegral]	:	"∮"	U222E
+[surfaceIntegral]	:	"∯"	U222F
+[volumeIntegral]	:	"∰"	U2230
+
+[proportion]	:	"∷"	U2237
+[minus_dot]	:	"∸"	U2238
+[excess]	:	"∹"	U2239
+
+[wreathProduct]	:	"≀"	U2240
 [tildeOp_not]	:	"≁"	U2241
 
 [asymptoticEquals_not]	:	"≄"	U2244
+[approxEquals]	:	"≅"	U2245
 
 [approxEquals_not]	:	"≇"	U2247
-
+[almostEquals]	:	"≈"	U2248
 [almostEquals_not]	:	"≉"	U2249
+[approachesLimit]	:	"≐"	U2250
+
+[colonEquals]	:	"≔"	U2254
+[equalsColon]	:	"≕"	U2255
+
+[equals_ring]	:	"≗"	U2257
+
+[estimates]	:	"≙"	U2259
+[equiangular]	:	"≚"	U225A
+
+[deltaEqual]	:	"≜"	U225C
+
+[questionEqual]	:	"≟"	U225F
+
+[less_2]	:	"≪"	U226A
+[greater_2]	:	"≫"	U226B
 
 [equivalent_not]	:	"≭"	U226D
 [less_not]	:	"≮"	U226E
@@ -32,14 +70,48 @@
 
 [subset_not]	:	"⊄"	U2284
 [superset_not]	:	"⊅"	U2285
+[subsetEquals]	:	"⊆"	U2286
+[superSetEquals]	:	"⊇"	U2287
 
 [subsetEquals_not]	:	"⊈"	U2288
 [supersetEquals_not]	:	"⊉"	U2289
+
+[plus_circled]	:	"⊕"	U2295
+[minus_circled]	:	"⊖"	U2296
+[cross_circled]	:	"⊗"	U2297
+[slash_circled]	:	"⊘"	U2298
+[dot_circled]	:	"⊙"	U2299
+[ring_circled]	:	"⊚"	U229A
+[asterisk_circled]	:	"⊛"	U229B
+[equals_circled]	:	"⊜"	U229C
+
+[true]	:	"⊨"	U22A8
 
 [rightTack_not]	:	"⊬"	U22AC
 [true_not]	:	"⊭"	U22AD
 [forces_not]	:	"⊮"	U22AE
 [doubleRightTack_not]	:	"⊯"	U22AF
+
+[normalSubgroup]	:	"⊲"	U22B2
+[hasNormalSubgroup]	:	"⊳"	U22B3
+[normalSubgroupEquals]	:	"⊴"	U22B4
+[hasNormalSubgroupEquals]	:	"⊵"	U22B5
+
+[xor]	:	"⊻"	U22BB
+[nand]	:	"⊼"	U22BC
+[nor]	:	"⊽"	U22BD
+
+[and_nAry]	:	"⋀"	U22C0
+[or_nAry]	:	"⋁"	U22C1
+[intersection_nAry]	:	"⋂"	U22C2
+[union_nAry]	:	"⋃"	U22C3
+
+[bowtie]	:	"⋈"	U22C8
+[bowtieRightOpen]	:	"⋉"	U22C9
+[bowtieLeftOpen]	:	"⋊"	U22CA
+
+[less_3]	:	"⋘"	U22D8
+[greater_3]	:	"⋙"	U22D9
 
 [precedesEquals_not]	:	"⋠"	U22E0
 [succeedsEquals_not]	:	"⋡"	U22E1
@@ -51,4 +123,6 @@
 [normalSubgroupEquals_not]	:	"⋬"	U22EC
 [hasNormalSubgroupEquals_not]	:	"⋭"	U22ED
 [verticalEllipsis]	:	"⋮"	U22EE
+
+[element_dot]	:	"⋵"	U22F5
 

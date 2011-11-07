@@ -1,3 +1,14 @@
 
+[I_blackletter]	:	"ℑ"	U2111
+
+[R_blackletter]	:	"ℜ"	U211C
+
 [serviceMark]	:	"℠"	U2120
+
+[alef_symbol]	:	"ℵ"	U2135
+[bet_symbol]	:	"ℶ"	U2136
+[gimel_symbol]	:	"ℷ"	U2137
+[dalet_symbol]	:	"ℸ"	U2138
+
+[ampersand_turn]	:	"⅋"	U214B
 

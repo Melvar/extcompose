@@ -7,6 +7,16 @@
 	<o>	:	@_circledSym
 	<O>	:	@_circledSym
 	<ellipsis>	:	@_dotted
+	<2>	:	@_2
+	<KP_2>	:	@_2
+	<3>	:	@_3
+	<KP_3>	:	@_3
+	<4>	:	@_4
+	<KP_4>	:	@_4
+	<jot>	:	@_middleRing
+	<H>	:	@_hebrewSymbol
+	<T>	:	@tacks
+	<Greek_DELTA>	:	@_triangled
 
 	<Tab>	:	@eighthNotes
 	<Multi_key>	:	@eighthNotes
@@ -17,6 +27,9 @@
 	<T> <M>	:	"™"	trademark
 	<t> <m>	:	"™"	trademark
 	<plus> <minus>	:	"±"	plusminus
+	<KP_Add> <KP_Subtract>	:	"±"	plusminus
+	<minus> <plus>	:	@minusPlus
+	<KP_Subtract> <KP_Add>	:	@minusPlus
 	<x> <x>	:	"×"	multiply
 	<colon> <minus>	:	"÷"	division
 	<percent> <0>	:	@permille
@@ -47,6 +60,61 @@
 	"□✘"	:	@ballotX
 	<Greek_DELTA> <exclam>	:	@warning
 	<enfilledcircbullet> <enfilledcircbullet>	:	@triangularBullet
+	<equal> <equal>	:	"≡"	identical
+	<colon> <equal>	:	@colonEquals
+	<colon> <KP_Equal>	:	@colonEquals
+	<equal> <colon>	:	@equalsColon
+	<KP_Equal> <colon>	:	@equalsColon
+	<greater> <equal>	:	"≥"	greaterthanequal
+	<less> <equal>	:	"≤"	lessthanequal
+	<Greek_DELTA> <equal>	:	@deltaEqual
+	<question> <equal>	:	@questionEqual
+	"ax"	:	"∝"	variation
+	"Re"	:	@R_blackletter
+	"re"	:	@R_blackletter
+	"Im"	:	@I_blackletter
+	"im"	:	@I_blackletter
+	<logicalor> <underscore>	:	@xor
+	<logicaland> <underscore>	:	@and_belowLine
+	<logicaland> <logicaland>	:	@and_nAry
+	<logicalor> <logicalor>	:	@or_nAry
+	<intersection> <intersection>	:	@intersection_nAry
+	<union> <union>	:	@union_nAry
+	<Greek_SIGMA> <Greek_SIGMA>	:	@summation
+	<Greek_PI> <Greek_PI>	:	@product
+	"⊙⊙"	:	@dot_circled_nAry
+	"⊕⊕"	:	@plus_circled_nAry
+	"⊗⊗"	:	@cross_circled_nAry
+	<includedin> <equal>	:	@subsetEquals
+	<includes> <equal>	:	@supersetEquals
+	<bar> <less>	:	@normalSubgroup
+	<bar> <greater>	:	@hasNormalSubgroup
+	<equal> <bar> <less>	:	@normalSubgroupEquals
+	<KP_Equal> <bar> <less>	:	@normalSubgroupEquals
+	<equal> <bar> <greater>	:	@hasNormalSubgroupEquals
+	<KP_Equal> <bar> <greater>	:	@hasNormalSubgroupEquals
+	<backslash> <backslash>	:	@setMinus
+	<bar> <space>	:	@divides
+	<bar> <bar>	:	@doubleVertical
+	<bar> <equal>	:	@true
+	<bar> <KP_Equal>	:	@true
+	<asterisk> <asterisk>	:	@asteriskOp
+	<KP_Multiply> <KP_Multiply>	:	@asteriskOp
+	<equal> <integral>	:	@integral_doubleStroke
+	<multiply> <integral>	:	@integralCross
+	<intersection> <integral>	:	@integralIntersection
+	<union> <integral>	:	@integralUnion
+	<underscore> <integral>	:	@integral_belowLine
+	<underscore> <multiply>	:	@cross_belowLine
+	<less> <parenright>	:	@lessClosedCurve
+	<parenleft> <greater>	:	@greaterClosedCurve
+	<multiply> <multiply>	:	@crossOp
+	<question> <less>	:	@lessQuestion
+	<question> <greater>	:	@greaterQuestion
+	<bar> <multiply> <bar>	:	@bowtie
+	<bar> <multiply> <space>	:	@bowtieRightOpen
+	<multiply> <bar>	:	@bowtieLeftOpen
+	<minus> <colon>	:	@excess
 
 	<underscore> <underscore>	:	@combiningLowLine
 }
@@ -66,15 +134,37 @@
 	"⚥"	:	@transHerm
 	<backslash>	:	"✗"	ballotcross
 	<colon>	:	@commercialMinus
+	<0>	:	"∅"	emptyset
+}
+
+[_slash]	:	{
+	<integral>	:	@integral_slash
+}
+
+[_bar]	:	{
+	<integral>	:	@integral_bar
 }
 
 [_not]	:	{
+	<Multi_key>	:	{
+		<less> <bar>	:	@normalSubgroup_not
+		<bar> <greater>	:	@hasNormalSubgroup_not
+		<equal> <less> <bar>	:	@normalSubgroupEquals_not
+		<equal> <bar> <greater>	:	@hasNormalSubgroupEquals_not
+		<bar> <minus>	:	@rightTack_not
+		<bar> <equal>	:	@true_not
+	}
+
+	"↻"	:	@_turn_not
+
 	"∃"	:	@exists_not
 	<elementof>	:	"∉"	notelementof
 	<containsas>	:	@contains_not
 	"∣"	:	@divides_not
+	<bar>	:	@divides_not
 	"∥"	:	@parallel_not
 	<approximate>	:	@tildeOp_not
+	<asciitilde>	:	@tildeOp_not
 	<similarequal>	:	@asymptoticEquals_not
 	"≅"	:	@approxEquals_not
 	"≈"	:	@almostEquals_not
@@ -109,6 +199,13 @@
 	"⊴"	:	@normalSubgroupEquals_not
 	"⊵"	:	@hasNormalSubgroupEquals_not
 	"⫝"	:	@forking
+	<implies>:	@implies_not
+	"⇐"	:	@impliedBy_not
+	<ifonlyif>	:	@iff_not
+}
+
+[_turn_not]	:	{
+	<elementof>	:	@contains_not
 }
 
 [_turn]	:	{
@@ -119,6 +216,20 @@
 	<femalesymbol>	:	@earth
 	<bracketright>	:	@openBox
 	"⇌"	:	@leftHarpoonOverRightHarpoon
+	<plusminus>	:	@minusPlus
+	"∓"	:	"±"	plusminus
+	<Greek_PI>	:	@coproduct
+	<elementof>	:	"∋"	containsas
+	<includedin>	:	"⊃"	includes
+	<includes>	:	"⊂"	includedin
+	"⊆"	:	@supersetEquals
+	"⊇"	:	@subsetEquals
+	<uptack>	:	"⊤"	downtack
+	<emptyset>	:	@emptySet_reversed
+	<asciitilde>	:	@wreathProduct
+	"∡"	:	@sphereAngle
+	<ampersand>	:	@ampersand_turn
+	<numbersign>	:	@smashProduct
 }
 
 [_hooked]	:	{
@@ -154,20 +265,166 @@
 	".C"	:	"₢"	CruzeiroSign
 }
 
+[_hebrewSymbol]	:	{
+	<a>	:	@alef_symbol
+	<b>	:	@bet_symbol
+	<g>	:	@gimel_symbol
+	<d>	:	@dalet_symbol
+}
+
 [_circledSym]	:	{
 	<C>	:	"©"	copyright
 	<c>	:	"©"	copyright
 	<R>	:	"®"	registered
 	<r>	:	"®"	registered
+	<plus>	:	@plus_circled
+	<KP_Add>	:	@plus_circled
+	<minus>	:	@minus_circled
+	<KP_Subtract>	:	@minus_circled
+	<multiply>	:	@cross_circled
+	<slash>	:	@slash_circled
+	<KP_Divide>	:	@slash_circled
+	"∙"	:	@dot_circled
+	<jot>	:	@ring_circled
+	<asterisk>	:	@asterisk_circled
+	<equal>	:	@equals_circled
+	<KP_Equal>	:	@equals_circled
+	<uptack>	:	@uptack_circled
+	"∥"	:	@parallel_circled
+	<less>	:	@less_circled
+	<greater>	:	@greater_circled
 }
 
 [_dotted]	:	{
 	<o>	:	@circle_dotted
 	<bar>	:	@verticalEllipsis
+	<logicaland>	:	"∴"	therefore
+	<logicalor>	:	"∵"	because
+}
+
+[_circumflex]	:	{
+	<equal>	:	@estimates
+	"≈"	:	@almostEquals_circumflex
+	<plus>	:	@plus_circumflex
+}
+
+[_tilde]	:	{
+	<equal>	:	@approxEquals
+	<asciitilde>	:	@almostEquals
+	<minus>	:	"≃"	similarequal
+	<plus>	:	@plus_tilde
+}
+
+[_dot]	:	{
+	<dead_macron>	:	@_macron_dot
+	<identical>	:	@identical_dot
+	<equal>	:	@approachesLimit
+	<elementof>	:	@element_dot
+	<logicaland>	:	@and_dot
+	<logicalor>	:	@or_dot
+	"⊆"	:	@subsetEquals_dot
+	"⊇"	:	@supersetEquals_dot
+	<asciitilde>	:	@tilde_dot
+	<minus>	:	@minus_dot
+	<plus>	:	@plus_dot
+	<multiply>	:	@cross_dot
+	<Greek_DELTA>	:	@triangle_dot
+}
+
+[_macron_dot]	:	{
+	<equals>	:	@identical_dot
+}
+
+[_belowDot]	:	{
+	<equal>	:	@equals_belowDot
+	<logicaland>	:	@and_belowDot
+}
+
+[_caron]	:	{
+	<equal>	:	@equiangular
+}
+
+[_macron]	:	{
+	<equal>	:	"≡"	identical
+	<logicaland>	:	@nand
+	<logicalor>	:	@nor
+	<emptyset>	:	@emptySet_macron
+	<integral>	:	@integral_macron
+	<union>	:	@union_macron
+	<intersection>	:	@intersection_macron
 }
 
 [_breve]	:	{
 	<femalesymbol>	:	@mercury
+}
+
+[_ring]	:	{
+	:	@_middleRing
+
+	<equal>	:	@equals_ring
+	<plus>	:	@plus_ring
+	<emptyset>	:	@emptySet_ring
+}
+
+[_middleRing]	:	{
+	<2>	:	@_2_middleRing
+	<KP_2>	:	@_2_middleRing
+	<3>	:	@_3_middleRing
+	<KP_3>	:	@_3_middleRing
+
+	<integral>	:	@contourIntegral
+}
+
+[_2_middleRing]	:	{
+	<integral>	:	@surfaceIntegral
+}
+
+[_3_middleRing]	:	{
+	<integral>	:	@volumeIntegral
+}
+
+[_triangled]	:	{
+	<plus>	:	@plus_triangled
+	<minus>	:	@minus_triangled
+	<multiply>	:	@cross_triangled
+}
+
+[_2]	:	{
+	<integral>	:	"∬"	dintegral
+	<colon>	:	@proportion
+	<less>	:	@less_2
+	<greater>	:	@greater_2
+	<equal>	:	@equal_2
+}
+
+[_3]	:	{
+	<squareroot>	:	"∛"	cuberoot
+	<integral>	:	"∭"	tintegral
+	<less>	:	@less_3
+	<greater>	:	@greater_3
+	<equal>	:	@equal_3
+}
+
+[_4]	:	{
+	<squareroot>	:	"∜"	fourthroot
+	<integral>	:	@integral_4
+}
+
+[_superShort]	:	{
+	<bracketleft>	:	@leftCeiling
+	<bracketright>	:	@rightCeiling
+}
+
+[_sub]	:	{
+	<bracketleft>	:	@leftFloor
+	<bracketright>	:	@rightFloor
+}
+
+[tacks]	:	{
+	<Right>	:	"⊢"	righttack
+	<Left>	:	"⊣"	lefttack
+	<Down>	:	"⊤"	downtack
+	<Up>	:	"⊥"	uptack
 }
 
 [words]	:	{
@@ -177,5 +434,9 @@
 	"poi"	:	@placeOfInterest
 	"opt"	:	@optionKey
 	"dag"	:	"†"	dagger
+	"sum"	:	@summation
+	"int"	:	"∫"	integral
+	"prod"	:	@product
+	"prop"	:	"∝"	variation
 }
 

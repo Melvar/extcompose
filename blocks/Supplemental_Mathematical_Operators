@@ -1,3 +1,58 @@
+[dot_circled_nAry]	:	"⨀"	U2A00
+[plus_circled_nAry]	:	"⨁"	U2A01
+[cross_circled_nAry]	:	"⨂"	U2A02
+
+[integral_4]	:	"⨌"	U2A0C
+[integral_bar]	:	"⨍"	U2A0D
+[integral_doubleStroke]	:	"⨎"	U2A0E
+[integral_slash]	:	"⨏"	U2A0F
+
+[integralCross]	:	"⨘"	U2A18
+[integralIntersection]	:	"⨙"	U2A19
+[integralUnion]	:	"⨚"	U2A1A
+[integral_macron]	:	"⨛"	U2A1B
+[integral_belowLine]	:	"⨜"	U2A1C
+
+[plus_ring]	:	"⨢"	U2A22
+[plus_circumflex]	:	"⨣"	U2A23
+[plus_tilde]	:	"⨤"	U2A24
+
+[crossOp]	:	"⨯"	U2A2F
+[cross_dot]	:	"⨰"	U2A30
+[cross_belowLine]	:	"⨱"	U2A31
+
+[smashProduct]	:	"⨳"	U2A33
+
+[plus_triangled]	:	"⨹"	U2A39
+[minus_triangled]	:	"⨺"	U2A3A
+[cross_triangled]	:	"⨻"	U2A3B
+
+[union_macron]	:	"⩂"	U2A42
+[intersection_macron]	:	"⩃"	U2A43
+
+[and_dot]	:	"⩑"	U2A51
+[or_dot]	:	"⩒"	U2A52
+
+[and_belowLine]	:	"⩟"	U2A5F
+
+[equals_belowDot]	:	"⩦"	U2A66
+[identical_dot]	:	"⩧"	U2A67
+
+[tilde_dot]	:	"⩪"	U2A6A
+
+[almostEquals_circumflex]	:	"⩯"	U2A6F
+
+[equals_2]	:	"⩵"	U2A75
+[equals_3]	:	"⩶"	U2A76
+
+[lessQuestion]	:	"⩻"	U2A7B
+[greaterQuestion]	:	"⩼"	U2A7C
+
+[lessClosedCurve]	:	"⪦"	U2AA6
+[greaterClosedCurve]	:	"⪧"	U2AA7
+
+[subsetEquals_dot]	:	"⫃"	U2AC3
+[supersetEquals_dot]	:	"⫄"	U2AC4
 
 [forking]	:	"⫝̸"	U2ADC
 
