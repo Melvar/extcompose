@@ -1,0 +1,16 @@
+
+[leftDoubleArrowFromBar]	:	"⤆"	U2906
+[rightDoubleArrowFromBar]	:	"⤇"	U2907
+
+[leftArrowTail]	:	"⤙"	U2919
+[rightArrowTail]	:	"⤚"	U291A
+[leftArrowDoubleTail]	:	"⤛"	U291B
+[rightArrowDoubleTail]	:	"⤜"	U291C
+
+[northWestSouthEastArrow]	:	"⤡"	U2921
+[northEastSouthWestArrow]	:	"⤢"	U2922
+[northWestArrow_hooked]	:	"⤣"	U2923
+[northEastArrow_hooked]	:	"⤤"	U2924
+[southEastArrow_hooked]	:	"⤥"	U2925
+[southWestArrow_hooked]	:	"⤦"	U2926
+

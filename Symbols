@@ -127,9 +127,6 @@
 [_stroke]	:	{
 	:	@_not
 
-	<leftarrow>	:	@leftArrow_stroke
-	<rightarrow>	:	@rightArrow_stroke
-	"↔"	:	@leftRightArrow_stroke
 	<malesymbol>	:	@trans
 	"⚥"	:	@transHerm
 	<backslash>	:	"✗"	ballotcross
@@ -199,9 +196,6 @@
 	"⊴"	:	@normalSubgroupEquals_not
 	"⊵"	:	@hasNormalSubgroupEquals_not
 	"⫝"	:	@forking
-	<implies>:	@implies_not
-	"⇐"	:	@impliedBy_not
-	<ifonlyif>	:	@iff_not
 }
 
 [_turn_not]	:	{

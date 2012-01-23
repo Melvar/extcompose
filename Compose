@@ -94,6 +94,10 @@
 	<asciicircum>	:	@_superShort
 	<underscore>	:	@_sub
 	<underbar>	:	@_sub
+	<bar>	:	@_blackboard
+	<ellipsis>	:	@_dotted
+	<equal>	:	@_doubleStroke
+	"ℓ"	:	@_loop
 }
 
 <dead_acute>	:	@_acute

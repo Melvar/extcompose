@@ -1,14 +1,73 @@
 
+[leftRightArrow]	:	"↔"	U2194
+[upDownArrow]	:	"↕"	U2195
+[northWestArrow]	:	"↖"	U2196
+[northEastArrow]	:	"↗"	U2197
+[southEastArrow]	:	"↘"	U2198
+[southWestArrow]	:	"↙"	U2199
 [leftArrow_stroke]	:	"↚"	U219A
 [rightArrow_stroke]	:	"↛"	U219B
-
+[leftWaveArrow]	:	"↜"	U219C
+[rightWaveArrow]	:	"↝"	U219D
+[leftTwoHeadArrow]	:	"↞"	U219E
+[upTwoHeadArrow]	:	"↟"	U219F
+[rightTwoHeadArrow]	:	"↠"	U21A0
+[downTwoHeadArrow]	:	"↡"	U21A1
+[leftTailArrow]	:	"↢"	U21A2
+[rightTailArrow]	:	"↣"	U21A3
+[leftArrowFromBar]	:	"↤"	U21A4
+[upArrowFromBar]	:	"↥"	U21A5
+[rightArrowFromBar]	:	"↦"	U21A6
+[downArrowFromBar]	:	"↧"	U21A7
+[upDownArrowBase]	:	"↨"	U21A8
+[leftArrow_hooked]	:	"↩"	U21A9
+[rightArrow_hooked]	:	"↪"	U21AA
+[leftLoopArrow]	:	"↫"	U21AB
+[rightLoopArrow]	:	"↬"	U21AC
+[leftRightWaveArrow]	:	"↭"	U21AD
 [leftRightArrow_stroke]	:	"↮"	U21AE
+[downZigzagArrow]	:	"↯"	U21AF
 
 [turnArrow]	:	"↻"	U21BB
-
+[leftAcuteHarpoon]	:	"↼"	U21BC
+[leftGraveHarpoon]	:	"↽"	U21BD
+[upGraveHarpoon]	:	"↾"	U21BE
+[upAcuteHarpoon]	:	"↿"	U21BF
+[rightGraveHarpoon]	:	"⇀"	U21C0
+[rightAcuteHarpoon]	:	"⇁"	U21C1
+[downAcuteHarpoon]	:	"⇂"	U21C2
+[downGraveHarpoon]	:	"⇃"	U21C3
+[rightOverLeftArrow]	:	"⇄"	U21C4
+[upBesideDownArrow]	:	"⇅"	U21C5
+[leftOverRightArrow]	:	"⇆"	U21C6
+[leftArrowPair]	:	"⇇"	U21C7
+[upArrowPair]	:	"⇈"	U21C8
+[rightArrowPair]	:	"⇉"	U21C9
+[downArrowPair]	:	"⇊"	U21CA
 [leftHarpoonOverRightHarpoon]	:	"⇋"	U21CB
 
 [impliedBy_not]	:	"⇍"	U21CD
 [iff_not]	:	"⇎"	U21CE
 [implies_not]	:	"⇏"	U21CF
+
+[upDoubleArrow]	:	"⇑"	U21D1
+
+[downDoubleArrow]	:	"⇓"	U21D3
+
+[upDownDoubleArrow]	:	"⇕"	U21D5
+[northWestDoubleArrow]	:	"⇖"	U21D6
+[northEastDoubleArrow]	:	"⇗"	U21D7
+[southEastDoubleArrow]	:	"⇘"	U21D8
+[southWestDoubleArrow]	:	"⇙"	U21D9
+
+[upArrow_doubleStroke]	:	"⇞"	U21DE
+[downArrow_doubleStroke]	:	"⇟"	U21DF
+[leftArrow_dotted]	:	"⇠"	U21E0
+[upArrow_dotted]	:	"⇡"	U21E1
+[rightArrow_dotted]	:	"⇢"	U21E2
+[downArrow_dotted]	:	"⇣"	U21E3
+[leftArrowToBar]	:	"⇤"	U21E4
+[rightArrowToBar]	:	"⇥"	U21E5
+
+[downBesideUpArrow]	:	"⇵"	U21F5
 

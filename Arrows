@@ -1,0 +1,134 @@
+
+<Multi_key>	:	{
+	<less> <minus>	:	"←"	leftarrow
+	<bar> <asciicircum>	:	"↑"	uparrow
+	<minus> <greater>	:	"→"	rightarrow
+	<v> <bar>	:	"↓"	downarrow
+	<less> <rightarrow>	:	@leftRightArrow
+	<leftarrow> <greater>	:	@leftRightArrow
+	<asciicircum> <bar> <v>	:	@upDownArrow
+	<backslash> <asciicircum>	:	@northWestArrow
+	<slash> <asciicircum>	:	@northEastArrow
+	<backslash> <v>	:	@southEastArrow
+	<slash> <v>	:	@southWestArrow
+	<asciicircum> <backslash> <v>	:	@northWestSouthEastArrow
+	<v> <slash> <asciicircum>	:	@northEastSouthWestArrow
+	<leftarrow> <bar>	:	@leftArrowFromBar
+	<uparrow> <bar>	:	@upArrowFromBar
+	<bar> <rightarrow>	:	@rightArrowFromBar
+	<downarrow> <bar>	:	@downArrowFromBar
+	<bar> <leftarrow>	:	@leftArrowToBar
+	<rightarrow> <bar>	:	@rightArrowToBar
+	"↕" <bar>	:	@upDownArrowBase
+	<rightarrow> <leftarrow>	:	@rightOverLeftArrow
+	<uparrow> <downarrow>	:	@upBesideDownArrow
+	<leftarrow> <rightarrow>	:	@leftOverRightArrow
+	<leftarrow> <leftarrow>	:	@leftArrowPair
+	<uparrow> <uparrow>	:	@upArrowPair
+	<rightarrow> <rightarrow>	:	@rightArrowPair
+	<downarrow> <downarrow>	:	@downArrowPair
+	<downarrow> <uparrow>	:	@downBesideUpArrow
+	<z> <downarrow>	:	@downZigzagArrow
+	<bar> "⇒"	:	@rightDoubleArrowFromBar
+	"⇐" <bar>	:	@leftDoubleArrowFromBar
+	<minus> <rightarrow>	:	@rightArrow_long
+	<leftarrow> <minus>	:	@leftArrow_long
+	<equal> <implies>	:	@rightDoubleArrow_long
+	"⇐" <equal>	:	@leftDoubleArrow_long
+	"⇐" <implies>	:	@leftRightDoubleArrow_long
+	<guillemotleft> <minus>	:	@leftTwoHeadArrow
+	<guillemotleft> <bar>	:	@upTwoHeadArrow
+	<minus> <guillemotright>	:	@rightTwoHeadArrow
+	<bar> <guillemotright>	:	@downTwoHeadArrow
+	<greater> <rightarrow>	:	@rightTailArrow
+	<leftarrow> <less>	:	@leftTailArrow
+	<minus> <less>	:	@leftArrowTail
+	<greater> <minus>	:	@rightArrowTail
+	<minus> <guillemotleft>	:	@leftArrowDoubleTail
+	<guillemotright> <minus>	:	@rightArrowDoubleTail
+}
+
+[_stroke]	:	{
+	<leftarrow>	:	@leftArrow_stroke
+	<rightarrow>	:	@rightArrow_stroke
+	"↔"	:	@leftRightArrow_stroke
+	<implies>:	@implies_not
+	"⇐"	:	@impliedBy_not
+	<ifonlyif>	:	@iff_not
+}
+
+[_turn]	:	{
+	<ifonlyif>	:	@upDownDoubleArrow
+}
+
+[_hooked]	:	{
+	<Multi_key>	:	{
+		<minus> <greater>	:	@rightArrow_hooked
+		<less> <minus>	:	@leftArrow_hooked
+		<backslash> <asciicircum>	:	@northWestArrow_hooked
+		<slash> <asciicircum>	:	@northEastArrow_hooked
+		<backslash> <v>	:	@southEastArrow_hooked
+		<slash> <v>	:	@southWestArrow_hooked
+	}
+	<rightarrow>	:	@rightArrow_hooked
+	<leftarrow>	:	@leftArrow_hooked
+}
+
+[_blackboard]	:	{
+	<uparrow>	:	@upDoubleArrow
+	<downarrow>	:	@downDoubleArrow
+	<backslash> <asciicircum>	:	@northWestDoubleArrow
+	<slash> <asciicircum>	:	@northEastDoubleArrow
+	<backslash> <v>	:	@southEastDoubleArrow
+	<slash> <v>	:	@southWestDoubleArrow
+}
+
+[_dotted]	:	{
+	<uparrow>	:	@upArrow_dotted
+	<downarrow>	:	@downArrow_dotted
+	<rightarrow>	:	@rightArrow_dotted
+	<leftarrow>	:	@leftArrow_dotted
+}
+
+[_doubleStroke]	:	{
+	<uparrow>	:	@upArrow_doubleStroke
+	<downarrow>	:	@downArrow_doubleStroke
+}
+
+[_circumflex]	:	{
+	<leftarrow>	:	@leftTwoHeadArrow
+	<uparrow>	:	@upTwoHeadArrow
+	<rightarrow>	:	@rightTwoHeadArrow
+	<downarrow>	:	@downTwoHeadArrow
+}
+
+[_caron]	:	{
+	<rightarrow>	:	@rightTailArrow
+	<leftarrow>	:	@leftTailArrow
+}
+
+[_acute]	:	{
+	<leftarrow>	:	@leftAcuteHarpoon
+	<uparrow>	:	@upAcuteHarpoon
+	<rightarrow>	:	@rightAcuteHarpoon
+	<downarrow>	:	@downAcuteHarpoon
+}
+
+[_grave]	:	{
+	<leftarrow>	:	@leftGraveHarpoon
+	<uparrow>	:	@upGraveHarpoon
+	<rightarrow>	:	@rightGraveHarpoon
+	<downarrow>	:	@downGraveHarpoon
+}
+
+[_tilde]	:	{
+	<leftarrow>	:	@leftWaveArrow
+	<rightarrow>	:	@rightWaveArrow
+	"↔"	:	@leftRightWaveArrow
+}
+
+[_loop]	:	{
+	<leftarrow>	:	@leftLoopArrow
+	<rightarrow>	:	@rightLoopArrow
+}
+
