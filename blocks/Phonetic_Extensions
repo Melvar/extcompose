@@ -1,0 +1,62 @@
+
+[A_modifier]	:	"ᴬ"	U1D2C
+
+[B_modifier]	:	"ᴮ"	U1D2E
+
+[D_modifier]	:	"ᴰ"	U1D30
+[E_modifier]	:	"ᴱ"	U1D31
+
+[G_modifier]	:	"ᴳ"	U1D33
+[H_modifier]	:	"ᴴ"	U1D34
+[I_modifier]	:	"ᴵ"	U1D35
+[J_modifier]	:	"ᴶ"	U1D36
+[K_modifier]	:	"ᴷ"	U1D37
+[L_modifier]	:	"ᴸ"	U1D38
+[M_modifier]	:	"ᴹ"	U1D39
+[N_modifier]	:	"ᴺ"	U1D3A
+
+[O_modifier]	:	"ᴼ"	U1D3C
+
+[P_modifier]	:	"ᴾ"	U1D3E
+[R_modifier]	:	"ᴿ"	U1D3F
+[T_modifier]	:	"ᵀ"	U1D40
+[U_modifier]	:	"ᵁ"	U1D41
+[W_modifier]	:	"ᵂ"	U1D42
+[a_modifier]	:	"ᵃ"	U1D43
+
+[alpha_modifier]	:	"ᵅ"	U1D45
+
+[b_modifier]	:	"ᵇ"	U1D47
+[d_modifier]	:	"ᵈ"	U1D48
+[e_modifier]	:	"ᵉ"	U1D49
+
+[openE_modifier]	:	"ᵋ"	U1D4B
+
+[g_modifier]	:	"ᵍ"	U1D4D
+
+[k_modifier]	:	"ᵏ"	U1D4F
+[m_modifier]	:	"ᵐ"	U1D50
+
+[o_modifier]	:	"ᵒ"	U1D52
+
+[p_modifier]	:	"ᵖ"	U1D56
+[t_modifier]	:	"ᵗ"	U1D57
+[u_modifier]	:	"ᵘ"	U1D58
+
+[v_modifier]	:	"ᵛ"	U1D5B
+
+[beta_modifier]	:	"ᵝ"	U1D5D
+[greekGamma_modifier]	:	"ᵞ"	U1D5E
+[delta_modifier]	:	"ᵟ"	U1D5F
+[greekPhi_modifier]	:	"ᵠ"	U1D60
+[chi_modifier]	:	"ᵡ"	U1D61
+[i_sub]	:	"ᵢ"	U1D62
+[r_sub]	:	"ᵣ"	U1D63
+[u_sub]	:	"ᵤ"	U1D64
+[v_sub]	:	"ᵥ"	U1D65
+[beta_sub]	:	"ᵦ"	U1D66
+[gamma_sub]	:	"ᵧ"	U1D67
+[rho_sub]	:	"ᵨ"	U1D68
+[phi_sub]	:	"ᵩ"	U1D69
+[chi_sub]	:	"ᵪ"	U1D6A
+

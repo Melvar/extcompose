@@ -1057,22 +1057,67 @@
 }
 
 [_super]	:	{
+	:	@_superShort
 	<underscore>	:	@_ordinal
+	<A>	:	@A_modifier
+	<a>	:	@a_modifier
+	<B>	:	@B_modifier
+	<b>	:	@b_modifier
+	<c>	:	@c_modifier
+	<D>	:	@D_modifier
+	<d>	:	@d_modifier
+	<E>	:	@E_modifier
+	<e>	:	@e_modifier
+	<f>	:	@f_modifier
+	<G>	:	@G_modifier
+	<g>	:	@g_modifier
+	<H>	:	@H_modifier
 	<h>	:	@h_modifier
+	<I>	:	@I_modifier
 	<i>	:	@i_modifier
+	<J>	:	@J_modifier
 	<j>	:	@j_modifier
+	<K>	:	@K_modifier
+	<k>	:	@k_modifier
+	<L>	:	@L_modifier
 	<l>	:	@l_modifier
+	<M>	:	@M_modifier
+	<m>	:	@m_modifier
+	<N>	:	@N_modifier
 	<n>	:	@n_modifier
+	<O>	:	@O_modifier
+	<o>	:	@o_modifier
+	<P>	:	@P_modifier
+	<p>	:	@p_modifier
+	<R>	:	@R_modifier
 	<r>	:	@r_modifier
 	<s>	:	@s_modifier
+	<T>	:	@T_modifier
+	<t>	:	@t_modifier
+	<U>	:	@U_modifier
+	<u>	:	@u_modifier
+	<V>	:	@V_modifier
+	<v>	:	@v_modifier
+	<W>	:	@W_modifier
 	<w>	:	@w_modifier
 	<x>	:	@x_modifier
 	<y>	:	@y_modifier
+	<z>	:	@z_modifier
+	"α"	:	@alpha_modifier
+	"β"	:	@beta_modifier
+	"χ"	:	@chi_modifier
+	"δ"	:	@delta_modifier
+	"ε"	:	@openE_modifier
+	"φ"	:	@greekPhi_modifier
+	"ϕ"	:	@phi_modifier
 	"ɦ"	:	@h_hooked_modifier
 	"ɣ"	:	@gamma_modifier
+	"γ"	:	@greekGamma_modifier
 	"ɹ"	:	@r_turn_modifier
 	"ɻ"	:	@r_turn_retroflex_modifier
 	"ʁ"	:	@R_smallcap_inverted_modifier
+	"θ"	:	@theta_modifier
+	"υ"	:	@upsilon_modifier
 	"ʕ"	:	@Glottalstop_reversed_modifier
 }
 
@@ -1082,11 +1127,6 @@
 }
 
 [_superShort]	:	{
-	<Multi_key>	:	{
-		<underscore>	:	@_super
-		<underbar>	:	@_super
-	}
-
 	<0>	:	"⁰"	zerosuperior
 	<KP_0>	:	"⁰"	zerosuperior
 	<1>	:	"¹"	onesuperior
@@ -1109,6 +1149,8 @@
 	<KP_9>	:	"⁹"	ninesuperior
 	<plus>	:	@plus_super
 	<KP_Add>	:	@plus_super
+	<minus>	:	@minus_super
+	<KP_Subtract>	:	@minus_super
 	"−"	:	@minus_super
 	<equal>	:	@equal_super
 	<KP_Equal>	:	@equal_super
@@ -1117,6 +1159,24 @@
 }
 
 [_sub]	:	{
+	:	@_subShort
+	<a>	:	@a_sub
+	<e>	:	@e_sub
+	<i>	:	@i_sub
+	<j>	:	@j_sub
+	<o>	:	@o_sub
+	<r>	:	@r_sub
+	<u>	:	@u_sub
+	<v>	:	@v_sub
+	<x>	:	@x_sub
+	"β"	:	@beta_sub
+	"χ"	:	@chi_sub
+	"φ"	:	@phi_sub
+	"γ"	:	@gamma_sub
+	"ρ"	:	@rho_sub
+}
+
+[_subShort]	:	{
 	<0>	:	"₀"	zerosubscript
 	<KP_0>	:	"₀"	zerosubscript
 	<1>	:	"₁"	onesubscript
@@ -1139,6 +1199,8 @@
 	<KP_9>	:	"₉"	ninesubscript
 	<plus>	:	@plus_sub
 	<KP_Add>	:	@plus_sub
+	<minus>	:	@minus_sub
+	<KP_Subtract>	:	@minus_sub
 	"−"	:	@minus_sub
 	<equal>	:	@equal_sub
 	<KP_Equal>	:	@equal_sub

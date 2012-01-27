@@ -14,3 +14,8 @@
 [parenleft_sub]	:	"₍"	U208D
 [parenright_sub]	:	"₎"	U208E
 
+[a_sub]	:	"ₐ"	U2090
+[e_sub]	:	"ₑ"	U2091
+[o_sub]	:	"ₒ"	U2092
+[x_sub]	:	"ₓ"	U2093
+

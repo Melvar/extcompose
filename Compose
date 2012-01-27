@@ -6,7 +6,6 @@
 #	Diacritic and common transform prefixes
 	<apostrophe>	:	@_acute
 	<acute>	:	@_acute
-	<asciicircum>	:	@_circumflex
 	<grave>	:	@_grave
 	<comma>	:	@_comma
 	<quotedbl>	:	@_diaeresis
@@ -89,9 +88,7 @@
 	<question> <plus>	:	@_horn_hook
 	<asciitilde> <plus>	:	@_horn_tilde
 	<exclam> <plus>	:	@_horn_belowDot
-	<asciicircum> <underscore>	:	@_super
-	<asciicircum> <underbar>	:	@_super
-	<asciicircum>	:	@_superShort
+	<asciicircum>	:	@_super
 	<underscore>	:	@_sub
 	<underbar>	:	@_sub
 	<bar>	:	@_blackboard
@@ -135,4 +132,4 @@
 "˞"	:	@_hooked
 
 <dead_circumflex>	:	@_superShort
-<dead_caron>	:	@_sub
+<dead_caron>	:	@_subShort
