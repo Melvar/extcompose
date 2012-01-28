@@ -1208,6 +1208,21 @@
 	<parenright>	:	@parenright_sub
 }
 
+[_script]	:	{
+	<B>	:	@B_script
+	<E>	:	@E_script
+	<e>	:	@e_script
+	<F>	:	@F_script
+	<g>	:	@g_script
+	<H>	:	@H_script
+	<I>	:	@I_script
+	<L>	:	@L_script
+	<l>	:	@l_script
+	<M>	:	@M_script
+	<o>	:	@o_script
+	<R>	:	@R_script
+}
+
 #the following groups are for the Neo2 unifications
 [_cedillaOrOgonek]	:	{
 	:	@_cedilla

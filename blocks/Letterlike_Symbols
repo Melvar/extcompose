@@ -1,9 +1,27 @@
 
-[I_blackletter]	:	"ℑ"	U2111
+[g_script]	:	"ℊ"	U210A
+[H_script]	:	"ℋ"	U210B
 
+[I_script]	:	"ℐ"	U2110
+[I_blackletter]	:	"ℑ"	U2111
+[L_script]	:	"ℒ"	U2112
+[l_script]	:	"ℓ"	U2113
+
+[weierstrassP]	:	"℘"	U2118
+
+[R_script]	:	"ℛ"	U211B
 [R_blackletter]	:	"ℜ"	U211C
 
 [serviceMark]	:	"℠"	U2120
+
+[B_script]	:	"ℬ"	U212C
+
+[e_script]	:	"ℯ"	U212F
+[E_script]	:	"ℰ"	U2130
+[F_script]	:	"ℱ"	U2131
+
+[M_script]	:	"ℳ"	U2133
+[o_script]	:	"ℴ"	U2134
 
 [alef_symbol]	:	"ℵ"	U2135
 [bet_symbol]	:	"ℶ"	U2136

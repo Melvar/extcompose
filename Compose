@@ -94,7 +94,8 @@
 	<bar>	:	@_blackboard
 	<ellipsis>	:	@_dotted
 	<equal>	:	@_doubleStroke
-	"ℓ"	:	@_loop
+	<percent>	:	@_loop
+	"ℓ"	:	@_script
 }
 
 <dead_acute>	:	@_acute

@@ -432,5 +432,6 @@
 	"int"	:	"∫"	integral
 	"prod"	:	@product
 	"prop"	:	"∝"	variation
+	"wp"	:	@weierstrassP
 }
 
