@@ -1217,7 +1217,6 @@
 	<H>	:	@H_script
 	<I>	:	@I_script
 	<L>	:	@L_script
-	<l>	:	@l_script
 	<M>	:	@M_script
 	<o>	:	@o_script
 	<R>	:	@R_script
