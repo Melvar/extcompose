@@ -1222,6 +1222,85 @@
 	<R>	:	@R_script
 }
 
+[_blackboard]	:	{
+	<A>	:	@A_blackboard
+	<a>	:	@a_blackboard
+	<B>	:	@B_blackboard
+	<b>	:	@b_blackboard
+	<C>	:	@C_blackboard
+	<c>	:	@c_blackboard
+	<D>	:	@D_blackboard
+	<d>	:	@d_blackboard
+	<E>	:	@E_blackboard
+	<e>	:	@e_blackboard
+	<F>	:	@F_blackboard
+	<f>	:	@f_blackboard
+	<G>	:	@G_blackboard
+	<g>	:	@g_blackboard
+	<H>	:	@H_blackboard
+	<h>	:	@h_blackboard
+	<I>	:	@I_blackboard
+	<i>	:	@i_blackboard
+	<J>	:	@J_blackboard
+	<j>	:	@j_blackboard
+	<K>	:	@K_blackboard
+	<k>	:	@k_blackboard
+	<L>	:	@L_blackboard
+	<l>	:	@l_blackboard
+	<M>	:	@M_blackboard
+	<m>	:	@m_blackboard
+	<N>	:	@N_blackboard
+	<n>	:	@n_blackboard
+	<O>	:	@O_blackboard
+	<o>	:	@o_blackboard
+	<P>	:	@P_blackboard
+	<p>	:	@p_blackboard
+	<Q>	:	@Q_blackboard
+	<q>	:	@q_blackboard
+	<R>	:	@R_blackboard
+	<r>	:	@r_blackboard
+	<S>	:	@S_blackboard
+	<s>	:	@s_blackboard
+	<T>	:	@T_blackboard
+	<t>	:	@t_blackboard
+	<U>	:	@U_blackboard
+	<u>	:	@u_blackboard
+	<V>	:	@V_blackboard
+	<v>	:	@v_blackboard
+	<W>	:	@W_blackboard
+	<w>	:	@w_blackboard
+	<X>	:	@X_blackboard
+	<x>	:	@x_blackboard
+	<Y>	:	@Y_blackboard
+	<y>	:	@y_blackboard
+	<Z>	:	@Z_blackboard
+	<z>	:	@z_blackboard
+	"Γ"	:	@GAMMA_blackboard
+	"γ"	:	@gamma_blackboard
+	"Π"	:	@PI_blackboard
+	"π"	:	@pi_blackboard
+	<0>	:	@0_blackboard
+	<KP_0>	:	@0_blackboard
+	<1>	:	@1_blackboard
+	<KP_1>	:	@1_blackboard
+	<2>	:	@2_blackboard
+	<KP_2>	:	@2_blackboard
+	<3>	:	@3_blackboard
+	<KP_3>	:	@3_blackboard
+	<4>	:	@4_blackboard
+	<KP_4>	:	@4_blackboard
+	<5>	:	@5_blackboard
+	<KP_5>	:	@5_blackboard
+	<6>	:	@6_blackboard
+	<KP_6>	:	@6_blackboard
+	<7>	:	@7_blackboard
+	<KP_7>	:	@7_blackboard
+	<8>	:	@8_blackboard
+	<KP_8>	:	@8_blackboard
+	<9>	:	@9_blackboard
+	<KP_9>	:	@9_blackboard
+}
+
 #the following groups are for the Neo2 unifications
 [_cedillaOrOgonek]	:	{
 	:	@_cedilla

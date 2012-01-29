@@ -1,4 +1,9 @@
 
+[leftBrace_blackboard]	:	"⦃"	U2983
+[rightBrace_blackboard]	:	"⦄"	U2984
+[leftParen_blackboard]	:	"⦅"	U2985
+[rightParen_blackboard]	:	"⦆"	U2986
+
 [emptySet_reversed]	:	"⦰"	U29B0
 [emptySet_macron]	:	"⦱"	U29B1
 [emptySet_ring]	:	"⦲"	U29B2

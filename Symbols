@@ -115,6 +115,12 @@
 	<bar> <multiply> <space>	:	@bowtieRightOpen
 	<multiply> <bar>	:	@bowtieLeftOpen
 	<minus> <colon>	:	@excess
+	<parenleft> <parenleft>	:	@leftParen_blackboard
+	<parenright> <parenright>	:	@rightParen_blackboard
+	<bracketleft> <bracketleft>	:	@leftBracket_blackboard
+	<bracketright> <bracketright>	:	@rightBracket_blackboard
+	<braceleft> <braceleft>	:	@leftBrace_blackboard
+	<braceright> <braceright>	:	@rightBrace_blackboard
 
 	<underscore> <underscore>	:	@combiningLowLine
 }
@@ -381,6 +387,16 @@
 	<plus>	:	@plus_triangled
 	<minus>	:	@minus_triangled
 	<multiply>	:	@cross_triangled
+}
+
+[_blackboard]	:	{
+	<notsign>	:	@not_blackboard
+	<parenleft>	:	@leftParen_blackboard
+	<parenright>	:	@rightParen_blackboard
+	<bracketleft>	:	@leftBracket_blackboard
+	<bracketright>	:	@rightBracket_blackboard
+	<braceleft>	:	@leftBrace_blackboard
+	<braceright>	:	@rightBrace_blackboard
 }
 
 [_2]	:	{

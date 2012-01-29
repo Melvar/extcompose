@@ -1,17 +1,27 @@
 
+[C_blackboard]	:	"ℂ"	U2102
+
 [g_script]	:	"ℊ"	U210A
 [H_script]	:	"ℋ"	U210B
+
+[H_blackboard]	:	"ℍ"	U210D
 
 [I_script]	:	"ℐ"	U2110
 [I_blackletter]	:	"ℑ"	U2111
 [L_script]	:	"ℒ"	U2112
 
-[weierstrassP]	:	"℘"	U2118
+[N_blackboard]	:	"ℕ"	U2115
 
+[weierstrassP]	:	"℘"	U2118
+[P_blackboard]	:	"ℙ"	U2119
+[Q_blackboard]	:	"ℚ"	U211A
 [R_script]	:	"ℛ"	U211B
 [R_blackletter]	:	"ℜ"	U211C
+[R_blackboard]	:	"ℝ"	U211D
 
 [serviceMark]	:	"℠"	U2120
+
+[Z_blackboard]	:	"ℤ"	U2124
 
 [B_script]	:	"ℬ"	U212C
 
@@ -26,6 +36,11 @@
 [bet_symbol]	:	"ℶ"	U2136
 [gimel_symbol]	:	"ℷ"	U2137
 [dalet_symbol]	:	"ℸ"	U2138
+
+[pi_blackboard]	:	"ℼ"	U213C
+[gamma_blackboard]	:	"ℽ"	U213D
+[GAMMA_blackboard]	:	"ℾ"	U213E
+[PI_blackboard]	:	"ℿ"	U213F
 
 [ampersand_turn]	:	"⅋"	U214B
 

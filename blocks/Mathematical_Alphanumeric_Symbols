@@ -1,0 +1,63 @@
+
+[A_blackboard]	:	"𝔸"	U1D538
+[B_blackboard]	:	"𝔹"	U1D539
+
+[D_blackboard]	:	"𝔻"	U1D53B
+[E_blackboard]	:	"𝔼"	U1D53C
+[F_blackboard]	:	"𝔽"	U1D53D
+[G_blackboard]	:	"𝔾"	U1D53E
+
+[I_blackboard]	:	"𝕀"	U1D540
+[J_blackboard]	:	"𝕁"	U1D541
+[K_blackboard]	:	"𝕂"	U1D542
+[L_blackboard]	:	"𝕃"	U1D543
+[M_blackboard]	:	"𝕄"	U1D544
+
+[O_blackboard]	:	"𝕆"	U1D546
+
+[S_blackboard]	:	"𝕊"	U1D54A
+[T_blackboard]	:	"𝕋"	U1D54B
+[U_blackboard]	:	"𝕌"	U1D54C
+[V_blackboard]	:	"𝕍"	U1D54D
+[W_blackboard]	:	"𝕎"	U1D54E
+[X_blackboard]	:	"𝕏"	U1D54F
+[Y_blackboard]	:	"𝕐"	U1D550
+
+[a_blackboard]	:	"𝕒"	U1D552
+[b_blackboard]	:	"𝕓"	U1D553
+[c_blackboard]	:	"𝕔"	U1D554
+[d_blackboard]	:	"𝕕"	U1D555
+[e_blackboard]	:	"𝕖"	U1D556
+[f_blackboard]	:	"𝕗"	U1D557
+[g_blackboard]	:	"𝕘"	U1D558
+[h_blackboard]	:	"𝕙"	U1D559
+[i_blackboard]	:	"𝕚"	U1D55A
+[j_blackboard]	:	"𝕛"	U1D55B
+[k_blackboard]	:	"𝕜"	U1D55C
+[l_blackboard]	:	"𝕝"	U1D55D
+[m_blackboard]	:	"𝕞"	U1D55E
+[n_blackboard]	:	"𝕟"	U1D55F
+[o_blackboard]	:	"𝕠"	U1D560
+[p_blackboard]	:	"𝕡"	U1D561
+[q_blackboard]	:	"𝕢"	U1D562
+[r_blackboard]	:	"𝕣"	U1D563
+[s_blackboard]	:	"𝕤"	U1D564
+[t_blackboard]	:	"𝕥"	U1D565
+[u_blackboard]	:	"𝕦"	U1D566
+[v_blackboard]	:	"𝕧"	U1D567
+[w_blackboard]	:	"𝕨"	U1D568
+[x_blackboard]	:	"𝕩"	U1D569
+[y_blackboard]	:	"𝕪"	U1D56A
+[z_blackboard]	:	"𝕫"	U1D56B
+
+[0_blackboard]	:	"𝟘"	U1D7D8
+[1_blackboard]	:	"𝟙"	U1D7D9
+[2_blackboard]	:	"𝟚"	U1D7DA
+[3_blackboard]	:	"𝟛"	U1D7DB
+[4_blackboard]	:	"𝟜"	U1D7DC
+[5_blackboard]	:	"𝟝"	U1D7DD
+[6_blackboard]	:	"𝟞"	U1D7DE
+[7_blackboard]	:	"𝟟"	U1D7DF
+[8_blackboard]	:	"𝟠"	U1D7E0
+[9_blackboard]	:	"𝟡"	U1D7E1
+
