@@ -92,7 +92,6 @@
 	<underscore>	:	@_sub
 	<underbar>	:	@_sub
 	<bar>	:	@_blackboard
-	<ellipsis>	:	@_dotted
 	<equal>	:	@_doubleStroke
 	<percent>	:	@_loop
 	"ℓ"	:	@_script

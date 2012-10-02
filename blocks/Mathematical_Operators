@@ -123,6 +123,9 @@
 [normalSubgroupEquals_not]	:	"⋬"	U22EC
 [hasNormalSubgroupEquals_not]	:	"⋭"	U22ED
 [verticalEllipsis]	:	"⋮"	U22EE
+[midlineEllipsis]	:	"⋯"	U22EF
+[diagonalEllipsis]	:	"⋰"	U22F0
+[antidiagonalEllipsis]	:	"⋱"	U22F1
 
 [element_dot]	:	"⋵"	U22F5
 

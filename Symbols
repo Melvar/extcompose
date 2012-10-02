@@ -17,6 +17,7 @@
 	<H>	:	@_hebrewSymbol
 	<T>	:	@tacks
 	<Greek_DELTA>	:	@_triangled
+	<backslash>	:	@math
 
 	<Tab>	:	@eighthNotes
 	<Multi_key>	:	@eighthNotes
@@ -121,6 +122,9 @@
 	<bracketright> <bracketright>	:	@rightBracket_blackboard
 	<braceleft> <braceleft>	:	@leftBrace_blackboard
 	<braceright> <braceright>	:	@rightBrace_blackboard
+	<colon> <rightarrow>	:	@ruleDelayed
+	<degree> <C>	:	@degreeCelsius
+	<degree> <F>	:	@degreeFahrenheit
 
 	<underscore> <underscore>	:	@combiningLowLine
 }
@@ -230,6 +234,8 @@
 	"∡"	:	@sphereAngle
 	<ampersand>	:	@ampersand_turn
 	<numbersign>	:	@smashProduct
+	<U20D7>	:	@combiningLeftArrow
+	"′"	:	@prime_reversed
 }
 
 [_hooked]	:	{
@@ -298,6 +304,10 @@
 [_dotted]	:	{
 	<o>	:	@circle_dotted
 	<bar>	:	@verticalEllipsis
+	<slash>	:	@diagonalEllipsis
+	<backslash>	:	@antidiagonalEllipsis
+	<emdash>	:	@midlineEllipsis
+	<endash>	:	@midlineEllipsis
 	<logicaland>	:	"∴"	therefore
 	<logicalor>	:	"∵"	because
 }
@@ -400,24 +410,39 @@
 }
 
 [_2]	:	{
+	"↻"	:	@_turn_2
+
 	<integral>	:	"∬"	dintegral
 	<colon>	:	@proportion
 	<less>	:	@less_2
 	<greater>	:	@greater_2
 	<equal>	:	@equals_2
+	"′"	:	"″"	second
+}
+
+[_turn_2]	:	{
+	"′"	:	@prime_reversed_2
 }
 
 [_3]	:	{
+	"↻"	:	@_turn_3
+
 	<squareroot>	:	"∛"	cuberoot
 	<integral>	:	"∭"	tintegral
 	<less>	:	@less_3
 	<greater>	:	@greater_3
 	<equal>	:	@equals_3
+	"′"	:	@prime_3
+}
+
+[_turn_3]	:	{
+	"′"	:	@prime_reversed_3
 }
 
 [_4]	:	{
 	<squareroot>	:	"∜"	fourthroot
 	<integral>	:	@integral_4
+	"′"	:	@prime_4
 }
 
 [_superShort]	:	{
@@ -437,6 +462,11 @@
 	<Up>	:	"⊥"	uptack
 }
 
+[math]	:	{
+	<apostrophe>	:	"′"	minutes
+	<quotedbl>	:	"″"	seconds
+}
+
 [words]	:	{
 	"flat"	:	"♭"	musicalflat
 	"natural"	:	@musicNatural
@@ -449,5 +479,8 @@
 	"prod"	:	@product
 	"prop"	:	"∝"	variation
 	"wp"	:	@weierstrassP
+	"planck"	:	@planckConstant
+	"hbar"	:	@reducedPlanckConstant
+	"micro"	:	"µ"	mu
 }
 

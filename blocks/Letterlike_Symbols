@@ -1,11 +1,14 @@
 
 [C_blackboard]	:	"ℂ"	U2102
+[degreeCelsius]	:	"℃"	U2103
 
+[degreeFahrenheit]	:	"℉"	U2109
 [g_script]	:	"ℊ"	U210A
 [H_script]	:	"ℋ"	U210B
 
 [H_blackboard]	:	"ℍ"	U210D
-
+[planckConstant]	:	"ℎ"	U210E
+[reducedPlanckConstant]	:	"ℏ"	U210F
 [I_script]	:	"ℐ"	U2110
 [I_blackletter]	:	"ℑ"	U2111
 [L_script]	:	"ℒ"	U2112

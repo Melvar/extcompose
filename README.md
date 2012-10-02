@@ -1,10 +1,10 @@
-Compose is sort of the Main file, all others currently only contain reference
-definitions.
+Compose is sort of the Main file; it, Symbols, and Arrows contain starting
+definitions, the others only contain reference definitions.
 
 Diacritics contains a number of groups for individual diacritics and other
 modifications of letters.
 
-Extended_Latin contains a group for ligatures and one for otherwise
+Latin_Extended contains a group for ligatures and one for otherwise
 unclassifiable Latin letters.
 
 Symbols contains symbols of all sorts, except that

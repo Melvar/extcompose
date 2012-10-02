@@ -5,6 +5,11 @@
 
 [permille]	:	"‰"	U2030
 
+[prime_3]	:	"‴"	U2034
+[prime_reversed]	:	"‵"	U2035
+[prime_reversed_2]	:	"‶"	U2036
+[prime_reversed_3]	:	"‷"	U2037
+
 [exclamation_double]	:	"‼"	U203C
 [interrobang]	:	"‽"	U203D
 
@@ -14,4 +19,6 @@
 [tironianEt]	:	"⁊"	U204A
 
 [commercialMinus]	:	"⁒"	U2052
+
+[prime_4]	:	"⁗"	U2057
 
